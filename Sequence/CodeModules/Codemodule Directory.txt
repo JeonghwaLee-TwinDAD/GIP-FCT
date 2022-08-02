@@ -1,2 +1,0 @@
-Add your codemodules here
-LTS-37 - TemplateCodeModules.lvproj - Contains LV VIs for code modules.

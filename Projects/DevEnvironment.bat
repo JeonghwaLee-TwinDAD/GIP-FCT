@@ -1,1 +1,0 @@
-"C:\Program Files\National Instruments\TestStand 2021\Bin\SeqEdit.exe" /env "C:\GitHub\Testand_Template_x64\Environment\Development.tsenv"
