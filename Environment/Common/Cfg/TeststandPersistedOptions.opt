@@ -1,0 +1,58 @@
+[DEF, %OBJROOT]
+PersistedBreakpointArray = Objs
+PersistedBreakpoint = Obj
+PersistedWatchpointArray = Objs
+
+[PersistedBreakpointArray]
+%HI = [0]
+
+[DEF, PersistedBreakpointArray]
+%[0] = "TYPE, PersistedBreakpoint"
+%NAME = ""
+
+[PersistedBreakpointArray[0]]
+Path = "C:\\Testand_Template_x64\\Environment\\Public\\Components\\LunarSequentialModel.seq"
+SequenceName = "SequenceFilePostResultListEntry"
+StepName = "Generate Timestamp"
+StepId = "ID#:6Y0lxwWu6xGiYQDgTGgXoB"
+
+[%TYPES]
+PersistedBreakpoint = "PersistedBreakpoint"
+
+[DEF, PersistedBreakpoint]
+%LOCATION = "StdTypes"
+Path = Str
+SequenceName = Str
+Group = Num
+StepName = Str
+StepIndex = Num
+StepId = Str
+IsEnabled = Bool
+PassCount = Num
+Condition = Str
+%ROOT_TYPE = True
+
+[PersistedBreakpoint]
+SequenceName = "MainSequence"
+Group = 1
+IsEnabled = True
+%TIMESTAMP = 1628820354
+%VERSION = "21.0.0.49156"
+%TYPELASTMOD = "21.0.0.49156"
+%MINPRODVER = "21.0.0.0"
+%TYPE_FLG = 33554436
+
+[__Header__]
+ProductName = "TestStand"
+ProductVersion = 21.0.0.49156
+CompatibleProdVersion = 21.0.0.0
+Version = 962
+Type = "TEPersisted"
+Path = ""
+ProductVersionString = "2021 (21.0.0.49156)"
+Description = ""
+CharEncoding = ""
+
+[DEF, PersistedWatchpointArray]
+%NAME = ""
+

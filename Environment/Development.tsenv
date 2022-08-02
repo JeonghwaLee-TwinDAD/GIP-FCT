@@ -1,0 +1,5 @@
+[TestStandPaths]
+CommonAppData = "Common"
+Public = "Public"
+LocalAppData = "LocalApp"
+

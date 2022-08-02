@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Label>Ash TUI Demo</Label>
+  <Guid>00a33423-aea3-4f8f-95a7-2fdc6619caa7</Guid>
+  <Id>00a33423-aea3-4f8f-95a7-2fdc6619caa7</Id>
+  <Description />
+  <Responsible>Ash</Responsible>
+  <SupportContact>Jung Lee</SupportContact>
+  <OperatorGridView>true</OperatorGridView>
+  <Hidden>false</Hidden>
+  <ProductPicturePath>../../../TUI_Demos/pictures/lightning.png</ProductPicturePath>
+  <Created>2021-10-19T13:56:39.5156211-08:00</Created>
+  <Modified>2021-10-19T13:56:39.5156211-08:00</Modified>
+  <TsSequenceFile>../Template.seq</TsSequenceFile>
+  <TsEntryPointStart />
+  <TsEntryPointCustomSettings />
+  <Autostart>true</Autostart>
+  <ProjectHelpURL />
+  <TemporaryGlobals />
+  <StationConfig />
+  <DisplayProductIds />
+</TestProject>

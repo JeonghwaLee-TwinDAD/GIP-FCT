@@ -1,0 +1,296 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools]
+"Enable"=dword:00000001
+"AddToSubMenu"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars]
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars-Bar0]
+"BarID"=dword:00000001
+"XPos"=dword:00000000
+"YPos"=dword:00000000
+"MRUDockID"=dword:00000000
+"MRUDockLeftPos"=dword:00000000
+"MRUDockTopPos"=dword:00000000
+"MRUDockRightPos"=dword:00000000
+"MRUDockBottomPos"=dword:00000000
+"MRUFloatXPos"=dword:00000000
+"MRUFloatYPos"=dword:00000000
+"DialogBar"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars-Bar1]
+"BarID"=dword:00000080
+"XPos"=dword:00000000
+"YPos"=dword:00000019
+"MRUDockID"=dword:00000000
+"MRUDockLeftPos"=dword:00000000
+"MRUDockTopPos"=dword:00000000
+"MRUDockRightPos"=dword:00000000
+"MRUDockBottomPos"=dword:00000000
+"MRUFloatXPos"=dword:00000000
+"MRUFloatYPos"=dword:00000000
+"DialogBar"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars-DockBar0]
+"Bar#0"=dword:00000000
+"Bar#1"=dword:00000001
+"Bar#2"=dword:00000000
+"Bar#3"=dword:00000080
+"Bar#4"=dword:00000000
+"Bars"=dword:00000005
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars-Options]
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\CommandBars-Summary]
+"Bars"=dword:00000002
+"ScreenCX"=dword:00000600
+"ScreenCY"=dword:00000336
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands]
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\0]
+@="0"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\1]
+"CmdType"=dword:00000000
+@="1"
+"Enable"=dword:00000001
+"FileTypes"="*"
+"Program"="C:\\Windows\\notepad.exe"
+"MenuText"="Open with Notepad"
+"ElementTypes"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\10]
+@="20"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\11]
+@="21"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\12]
+@="14"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\13]
+@="15"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\14]
+@="6"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\15]
+@="22"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\16]
+@="37"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\17]
+@="31"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\18]
+@="32"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\19]
+@="7"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\2]
+@="0"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\20]
+@="24"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\21]
+@="8"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\22]
+@="9"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\23]
+@="18"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\24]
+@="10"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\25]
+@="11"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\26]
+@="12"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\27]
+@="13"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\28]
+@="16"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\29]
+@="23"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\3]
+@="19"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\30]
+@="25"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\31]
+@="26"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\32]
+@="29"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\33]
+@="35"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\34]
+@="38"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\35]
+@="33"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\36]
+@="34"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\37]
+@="36"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\38]
+@="27"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\39]
+@="39"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\4]
+@="2"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\40]
+@="40"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\41]
+@="41"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\42]
+@="0"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\5]
+@="3"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\6]
+@="4"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\7]
+@="5"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\8]
+@="28"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Commands\9]
+@="17"
+"Enable"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts]
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout]
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-1]
+"Type"=dword:00000002
+"Horiz"=dword:00000001
+"Panes"=dword:00000002
+"Pane-1"=dword:00000002
+"Pane-2"=dword:00000007
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-2]
+"Type"=dword:00000002
+"DockingCX"=dword:00000104
+"DockingCY"=dword:00000096
+"Panes"=dword:00000002
+"Pane-1"=dword:00000003
+"Pane-2"=dword:00000005
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-3]
+"Type"=dword:00000001
+"DockingCX"=dword:00000104
+"DockingCY"=dword:00000096
+"Panes"=dword:00000001
+"Selected"=dword:00000004
+"Pane-1"=dword:00000004
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-4]
+"Type"=dword:00000000
+"DockingCX"=dword:00000104
+"DockingCY"=dword:00000096
+"Title"="Tasks"
+"ID"=dword:00000FA0
+"DockingHolder"=dword:00000003
+"LastHolder"=dword:00000003
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-5]
+"Type"=dword:00000001
+"DockingCX"=dword:00000104
+"DockingCY"=dword:00000078
+"Panes"=dword:00000001
+"Selected"=dword:00000006
+"Pane-1"=dword:00000006
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-6]
+"Type"=dword:00000000
+"DockingCX"=dword:00000104
+"DockingCY"=dword:00000078
+"Title"="Properties"
+"ID"=dword:00000FA1
+"DockingHolder"=dword:00000005
+"LastHolder"=dword:00000005
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Pane-7]
+"Type"=dword:00000004
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\DockingPaneLayouts\NormalLayout\Summary]
+"Panes"=dword:00000007
+"TopContainer"=dword:00000001
+"Client"=dword:00000007
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\PropertiesView]
+"HelpHeight"=dword:00000046
+"DividerPos"=dword:0000006E
+
+[HKEY_CURRENT_USER\Software\LopeSoft\FileMenu Tools\Settings]
+"Window Position"=hex:00,00,00,00,00,00,00,00,2c,00,00,00,00,00,00,00,01,00,00,00,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,34,00,00,00,34,00,00,00,b4,04,00,00,6a,02,00,00,00,00,00,00
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Label>Template Test</Label>
+  <Guid>73294a5c-b753-4050-9507-b6c7c0df9626</Guid>
+  <Id>73294a5c-b753-4050-9507-b6c7c0df9626</Id>
+  <Description />
+  <Responsible />
+  <SupportContact />
+  <OperatorGridView>false</OperatorGridView>
+  <Hidden>false</Hidden>
+  <ProductPicturePath />
+  <Created>2022-03-18T12:22:16.03961-07:00</Created>
+  <Modified>2022-03-18T12:22:16.03961-07:00</Modified>
+  <TsSequenceFile>../../Sequence/Template.seq</TsSequenceFile>
+  <TsEntryPointStart />
+  <TsEntryPointCustomSettings />
+  <Autostart>false</Autostart>
+  <ProjectHelpURL />
+  <TemporaryGlobals>
+    <PropertyDefinition>
+      <Name>new</Name>
+      <Value />
+      <Type>String</Type>
+      <Description />
+    </PropertyDefinition>
+    <PropertyDefinition>
+      <Name>new</Name>
+      <Value />
+      <Type>String</Type>
+      <Description />
+    </PropertyDefinition>
+  </TemporaryGlobals>
+  <StationConfig />
+  <DisplayProductIds />
+</TestProject>

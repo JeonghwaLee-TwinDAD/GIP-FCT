@@ -1,0 +1,49 @@
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandWorkspace.1]
+
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandWorkspace.1\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandWorkspace.1\shell\Open]
+
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandWorkspace.1\shell\Open\command]
+@="\"C:\\Program Files (x86)\\National Instruments\\TestStand 2019\\Bin\\UseExistingSeqEdit.exe\" /useexisting \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandWorkspace.1\shell\OpenEnvironment]
+@="Open in Dev environment"
+"Icon"="C:\\Program Files (x86)\\National Instruments\\TestStand 2019\\Bin\\UseExistingSeqEdit.exe,0"
+
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandWorkspace.1\shell\OpenEnvironment\command]
+@="\"C:\\Program Files (x86)\\National Instruments\\TestStand 2019\\Bin\\UseExistingSeqEdit.exe\" /useexisting \"%1\" /env \"..\\Framework\\Environments\\Developer.tsenv\""
+
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandSequenceFile.1]
+@="TestStand Sequence File"
+
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandSequenceFile.1\CurVer]
+@="NationalInstruments.TestStandSequenceFile.1"
+
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandSequenceFile.1\DefaultIcon]
+@="C:\\Program Files (x86)\\National Instruments\\TestStand 2019\\Bin\\TSEngine.dll,-200"
+
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandSequenceFile.1\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandSequenceFile.1\shell\Open]
+
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandSequenceFile.1\shell\Open\command]
+@="\"C:\\Program Files (x86)\\National Instruments\\TestStand 2019\\Bin\\UseExistingSeqEdit.exe\" /useexisting \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandSequenceFile.1\shell\OpenEnvironment]
+@="Open in Dev environment"
+"Icon"="C:\\Program Files (x86)\\National Instruments\\TestStand 2019\\Bin\\UseExistingSeqEdit.exe,0"
+
+[HKEY_CURRENT_USER\Software\Classes\NationalInstruments.TestStandSequenceFile.1\shell\OpenEnvironment\command]
+@="\"C:\\Program Files (x86)\\National Instruments\\TestStand 2019\\Bin\\UseExistingSeqEdit.exe\" /useexisting \"%1\" /env \"..\\Environments\\Developer.tsenv\""
+
+[HKEY_CURRENT_USER\Software\Classes\tsenv_auto_file]
+@="\"C:\\Program Files (x86)\\National Instruments\\TestStand 2019\\Bin\\SeqEdit.exe\" /env \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\tsenv_auto_file\shell]
+
+[HKEY_CURRENT_USER\Software\Classes\tsenv_auto_file\shell\Open]
+
+[HKEY_CURRENT_USER\Software\Classes\tsenv_auto_file\shell\Open\command]
+@="\"C:\\Program Files (x86)\\National Instruments\\TestStand 2019\\Bin\\SeqEdit.exe\" /env \"%1\""
+

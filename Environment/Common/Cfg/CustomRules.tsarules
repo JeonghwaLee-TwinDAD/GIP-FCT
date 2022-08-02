@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<teststandfileheader type='SequenceAnalyzerRulesFile' fileversion='941' productname='TestStand' productversion='2020 (20.0.0.49158)' compatibleversion='20.0.0.0' buildversion='20.0.0.49158' xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.ni.com/TestStand/20.0.0/PropertyObjectFile">
+	<typelist/>
+	<Data classname='Obj'>
+		<subprops>
+			<data classname='Obj'>
+				<subprops>
+					<FileVersion classname='Num'>
+						<value>1</value>
+					</FileVersion>
+					<MinimumCompatibleFileVersion classname='Num'>
+						<value>1</value>
+					</MinimumCompatibleFileVersion>
+					<Rules classname='Objs'>
+						<value lbound='[0]' ubound='[]'/>
+					</Rules>
+					<Modules classname='Objs'>
+						<value lbound='[0]' ubound='[]'/>
+					</Modules>
+				</subprops>
+			</data>
+		</subprops>
+	</Data>
+</teststandfileheader>
