@@ -17,14 +17,16 @@
 	</Item>
 	<Item Name="Private VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Connect OPC UA.vi" Type="VI" URL="../SubVIs/Connect OPC UA.vi"/>
-		<Item Name="Disconnect OPC UA.vi" Type="VI" URL="../SubVIs/Disconnect OPC UA.vi"/>
 		<Item Name="Pre Launch Init.vi" Type="VI" URL="../SubVIs/Pre Launch Init.vi"/>
 		<Item Name="Set Fault Msg.vi" Type="VI" URL="../SubVIs/Set Fault Msg.vi"/>
 		<Item Name="Set NodeIDs.vi" Type="VI" URL="../SubVIs/Set NodeIDs.vi"/>
 		<Item Name="Get Tx Dataset.vi" Type="VI" URL="../SubVIs/Get Tx Dataset.vi"/>
 		<Item Name="Set Tx Format.vi" Type="VI" URL="../SubVIs/Set Tx Format.vi"/>
 		<Item Name="Update Components.vi" Type="VI" URL="../SubVIs/Update Components.vi"/>
+	</Item>
+	<Item Name="Public VIs" Type="Folder">
+		<Item Name="Connect OPC UA.vi" Type="VI" URL="../SubVIs/Connect OPC UA.vi"/>
+		<Item Name="Disconnect OPC UA.vi" Type="VI" URL="../SubVIs/Disconnect OPC UA.vi"/>
 	</Item>
 	<Item Name="OPCUA.vi" Type="VI" URL="../OPCUA.vi"/>
 </Library>

@@ -18,7 +18,6 @@
 				<Item Name="DMM_Data.ctl" Type="VI" URL="../../Sequence/CodeModules/Load INI/Controls/DMM_Data.ctl"/>
 				<Item Name="Instruments_Data.ctl" Type="VI" URL="../../Sequence/CodeModules/Load INI/Controls/Instruments_Data.ctl"/>
 				<Item Name="MUX_Data.ctl" Type="VI" URL="../../Sequence/CodeModules/Load INI/Controls/MUX_Data.ctl"/>
-				<Item Name="PowerSupply_Data.ctl" Type="VI" URL="../../Sequence/CodeModules/Load INI/Controls/PowerSupply_Data.ctl"/>
 			</Item>
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="Load Hardware Config.vi" Type="VI" URL="../../Sequence/CodeModules/Load INI/Load Hardware Config.vi"/>
@@ -73,6 +72,7 @@
 				<Item Name="DMM States.ctl" Type="VI" URL="../../Sequence/CodeModules/DAQ/Controls/DMM States.ctl"/>
 				<Item Name="PS States.ctl" Type="VI" URL="../../Sequence/CodeModules/DAQ/Controls/PS States.ctl"/>
 				<Item Name="DAQ States.ctl" Type="VI" URL="../../Sequence/CodeModules/DAQ/Controls/DAQ States.ctl"/>
+				<Item Name="Relay States.ctl" Type="VI" URL="../../Sequence/CodeModules/DAQ/Controls/Relay States.ctl"/>
 				<Item Name="DataSet TypeDef.ctl" Type="VI" URL="../../Sequence/CodeModules/DAQ/Controls/DataSet TypeDef.ctl"/>
 			</Item>
 			<Item Name="SubVIs" Type="Folder">
@@ -83,6 +83,14 @@
 			<Item Name="DMM Wrapper.vi" Type="VI" URL="../../Sequence/CodeModules/DAQ/SubVIs/DMM Wrapper.vi"/>
 			<Item Name="6700C Wrapper.vi" Type="VI" URL="../../Sequence/CodeModules/DAQ/SubVIs/6700C Wrapper.vi"/>
 			<Item Name="APS-7050 Wrapper.vi" Type="VI" URL="../../Sequence/CodeModules/DAQ/SubVIs/APS-7050 Wrapper.vi"/>
+			<Item Name="Switch Relays.vi" Type="VI" URL="../../Sequence/CodeModules/DAQ/SubVIs/Switch Relays.vi"/>
+		</Item>
+		<Item Name="TDMS Logger" Type="Folder">
+			<Item Name="DataSet.ctl" Type="VI" URL="../../Sequence/CodeModules/TDMS Log/DataSet.ctl"/>
+			<Item Name="TDMS AE.vi" Type="VI" URL="../../Sequence/CodeModules/TDMS Log/TDMS AE.vi"/>
+			<Item Name="TDMS Logger.vi" Type="VI" URL="../../Sequence/CodeModules/TDMS Log/TDMS Logger.vi"/>
+			<Item Name="TDMS Path.vi" Type="VI" URL="../../Sequence/CodeModules/TDMS Log/TDMS Path.vi"/>
+			<Item Name="TDMS AE Control.ctl" Type="VI" URL="../../Sequence/CodeModules/TDMS Log/TDMS AE Control.ctl"/>
 		</Item>
 		<Item Name="OPCUA.lvlib" Type="Library" URL="../../Sequence/CodeModules/OPCUA/OPCUA.lvlib"/>
 		<Item Name="Database Config.ini" Type="Document" URL="../../Config/Database Config.ini"/>
@@ -375,7 +383,6 @@
 				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
-				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="DAQmx Write.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write.vi"/>
 				<Item Name="DAQmx Write (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Analog 1D DBL NChan 1Samp).vi"/>
@@ -426,6 +433,12 @@
 				<Item Name="DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Frequency 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Ticks 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Write (Counter 1D Time 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/write.llb/DAQmx Write (Counter 1D Time 1Chan NSamp).vi"/>
+				<Item Name="TDMS Logger.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Asynchronous TDMS Logger/TDMS Logger.lvlib"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent N6700 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent N6700 Series/Agilent N6700 Series.lvlib"/>
@@ -457,7 +470,6 @@
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Get Set FGV.vi" Type="VI" URL="../../Sequence/CodeModules/Load INI/Get Set FGV.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
