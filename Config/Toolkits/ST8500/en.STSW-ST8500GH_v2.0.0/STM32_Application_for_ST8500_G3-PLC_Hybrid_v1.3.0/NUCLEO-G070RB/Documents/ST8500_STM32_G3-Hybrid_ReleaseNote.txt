@@ -1,0 +1,41 @@
+STM32+ST8500
+Release note
+STM32 Application for ST8500 G3-Hybrid 1.3.0
+
+Purpose and scope
+This document contains the version 1.3.0 of the Release note for the STM32 Application for ST8500 G3-Hybrid.
+The purpose of this document is to illustrate the content of the package, the changes included in each release, the supported devices and EVAL boards, the summary of the tests performed with this release and the known issues and limitations.
+
+1. Contents
+The STM32 Application for ST8500 G3-Hybrid package contains the following items:
+* This document (Release note)
+* The source code of the example applications
+* The STM32CubeMx IOC file used to generate the framework that contains the example applications
+2. Changes
+2.1. 1.3.0
+Fix and enhancements included are:
+* Corrected a Keep Alive issue that occurred randomly after a while and that forced the node to leave the network
+* Added a 868 MHz / 915 MHz configuration in IAR project
+* Added a timeout on the UDP data loopback and multi basic UDP data tests
+* Added a terminal RX FIFO overflow detection
+2.2. 1.2.0
+Fix and enhancements included are:
+* Added a user task that allows launching a UDP responder via a serial terminal
+* More compatibility with HAL/LL
+* CubeMX file updated
+2.3. 1.1.0
+Fix and enhancements included are:
+* Port to NUCLEO-G070RB
+* Several bug-fixes and code clean-ups
+3. Supported targets and EVAL Boards
+The NUCLEO-G070RB included in the EVLKST8500GH868 and EVLKST8500GH915 kits.
+4. Test summary
+The following tests have been carried out:
+* 'Basic', several 'basic' and 'loopback' communication tests between two boards
+5. Known issues and limitations
+The package has the following known issues and limitations:
+* The UDP test example works only between the coordinator and the last device that joined the network.
+6. Tools
+The FW has been compiled with IAR v8.50.9.
+
+Copyright STMicroelectronics – Reproduction and communication of this document is strictly prohibited unless specifically authorized in writing by STMicroelectronics. These are preliminary information. Details are subject to changes without notice.

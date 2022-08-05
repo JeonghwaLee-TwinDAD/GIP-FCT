@@ -1,0 +1,1 @@
+gcc Samples\C\VS2019\JLinkExe\TRACE.c Samples\C\VS2019\JLinkExe\Main.c -IInc -ISamples\C\VS2019\JLinkExe\ -LEtc_GCC -l:JLink_x64.lib -l:SYS_x64.lib -l:UTIL_x64.lib -m64 -o JLink_GCC_x64.exe

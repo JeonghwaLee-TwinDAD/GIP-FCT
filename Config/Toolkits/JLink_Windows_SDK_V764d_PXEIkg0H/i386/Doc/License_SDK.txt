@@ -1,0 +1,69 @@
+non-exclusive software license agreement for J-Link Software Development Kit (SDK) Version 200519
+
+Important-Read carefully: This license contract is a legal agreement between YOU (either an individual or a single entity) and SEGGER Microcontroller GmbH. YOU agree to be bound by the terms of this agreement. By downloading and/or using the software, the individual or entity is consenting to be bound by and is becoming a party to this agreement. If YOU do not agree to all of the terms of this agreement, YOU must not install or use any of the software components developed by SEGGER Microcontroller GmbH.
+
+§ 1 Content of the contract/definitions
+- Licensor
+In this agreement "Licensor" shall mean SEGGER Microcontroller GmbH (called SEGGER).
+- Licensee
+In this agreement "Licensee" shall mean the receiving party of SEGGER software
+In this agreement "Enduser" means a person, company, or other legal entity receiving products or software components as listed in § 3 redistribution from "Licensee" to use Licensees Products for its own internal purposes and not for distribution to, or use on behalf of, others.
+- End user license agreement
+In this agreement "Enduser license agreement" shall mean a software license agreement in writing between “Licensee” and its customers or any other third party including restrictions with regard to the SEGGER software components
+- Redistribution
+In this agreement "Redistribution” shall mean a non-transferable, non-exclusive, revocable authorization of Licensee to (sub)distribute J-Link SDK software components as listed in section §3.
+- Source code
+In this agreement “Source Code” means the human-readable version of a software program that can be compiled into Object Code.
+- Object code
+In this agreement “Object Code” means the machine–readable, linkable and compiled version of a software program such as .dll, .lib.
+- J-Link
+In this agreement "J-Link" shall mean the SEGGER J-Link or authorized OEM products only.
+- Software
+In this agreement " Software” shall mean all J-Link SDK files and components shipped by SEGGER to Licensee.
+
+1. The J-Link SDK (hereinafter referred to as “software”) governed by this contract, which includes computer software and printed material is protected by copyright laws.
+2. Solely with respect to electronic documents included with the software product, YOU may make an unlimited number of copies (either in hardcopy or electronic form), provided that such copies shall be used only for internal purposes and are not republished or distributed to any third party without agreement of SEGGER.
+3. The software is licensed, not sold, to YOU for use only under the terms of this agreement. YOU acknowledge and agree that the product consists of proprietary, unpublished products of SEGGER, protected under copyright and trade secret laws. Title, ownership rights, and intellectual property rights in the product shall remain by SEGGER and/or its suppliers. Licensee acknowledges such ownership and intellectual property rights and will not take any action to jeopardize, limit or interfere in any manner with SEGGER or its suppliers' ownership of or rights with respect to the product.
+
+§ 2 Grant of License for object and executable code licensed under CW-OEL (company wide object executable license)
+1. The Licensee (YOU) will receive the software as object code (.dll, .lib) and executable from SEGGER.
+2. The company wide license entitles all persons working on projects for your company to use the software within the company on SEGGER J-Links or authorized OEM products only.
+3. Unless not clearly permitted by SEGGER any distribution or shipment of source code or code in linkable form or executable code requires the prior written authorization from SEGGER.
+4. The software is in "use" on a computer when it is loaded into temporary memory (i.e. RAM) or installed into permanent memory (e.g., hard disk, CD-ROM, or other storage device) of that computer.
+5. YOU are entitled to make copies of the software for backup purposes. All copies of the software, including modifications to the software, must bear all copyright, trademarks and other proprietary notices included thereon by SEGGER.
+6. Any other use of the software is prohibited without prior written authorization from SEGGER.
+ 
+§ 3 Redistribution rights
+1. The following J-Link SDK software components designed and to be used with SEGGER J-Links or authorized OEM products only may be redistributed by Licensee as part of the application to endusers free of charge:
+JLinkARM.dll and/or Jlink.dll
+libjlinkarm.* (e.g. libjlinkarm.so.7.52.4 or libjlinkarm.7.52.4.dylib)
+J-Link USB drivers
+
+All other J-Link SDK software components such as header files and documentation can not be redistributed without prior written authorization from SEGGER.
+Any redistribution requires prior shipment of any such software components a separate license agreement between Licensee and enduser. The sublicense must include all restrictions regarding the software components as stipulated in sections §§ 2 no. 2-4, 6 §3, §4, §5, and §6 of this agreement, especially the limitation to make use of the software components on SEGGER J-Links or authorized OEM products only. Any redistribution without enduser license agreement or under terms and conditions beyond that offered by SEGGER herein is prohibited and SEGGER can make YOU liable, if YOU should fail to do so. This grant of redistribution does not entitle YOU or enduser to receive from SEGGER hard-copy documentation, technical support, phone assistance, or enhancements or updates to the software unless a specific agreement clearly states otherwise.
+THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE REDISTRIBUTED SOFTWARE IS BORNE BY Licensee.
+
+§ 4 Restrictions
+1. The right to use the software components by a third party requires the expressed, written consent of SEGGER.
+2. YOU may not reverse engineer, decompile, or disassemble a software product shipped in source, object or executable form.
+3. YOU may not rent or lease the software product.
+4. By entering this license, YOU agree to commit yourself not to develop a software similar or competitive to the one licensed.
+5. YOU shall not use nor permit the use of the Software licensed hereunder in any tool, instrument or system designed with the primary purpose of injuring or killing any person or destroying or damaging property.
+
+§ 5 Termination
+1. Without prejudice to any other rights, SEGGER may terminate this agreement if YOU fail to comply with the terms and conditions of this agreement or - if the J-Link SDK has been provided to YOU free of charge - at any time upon giving ten (10) days prior written notice. Such termination will be effective on the date stated in the notice. If SEGGER terminates this agreement YOU shall, at the election of SEGGER, return or destroy all SEGGER J-Link SDK deliverables and all of its component parts immediately and shall provide written certification of such destruction or return to SEGGER. Any use of the J-Link SDK deliverables following a termination of this agreement is prohibited.
+2. SEGGER can make YOU liable, if YOU should fail to comply with this license.
+
+§ 6 Disclaimer of Warranty
+1. The software is provided on an "as is" basis, without warranty of any kind, including without limitation the warranties that it is free of defects, merchantable, fit for a particular purpose or non-infringing. In developing the Software SEGGER attempted to offer the most current, correct and clearly expressed information possible. Nonetheless, errors can occur. SEGGER does not warrant that the software is free from bugs, errors, or other program limitations. The entire risk as to the quality and performance is borne by Licensee. Should the software prove defective in any respect, Licensee and not Licensor or its suppliers or Resellers assume the entire cost of any service and repair. This disclaimer of warranty constitutes an essential part of this agreement. No use of the software is authorized hereunder except under this disclaimer.
+2. To the maximum extent permitted by applicable law, in no event will SEGGER or its suppliers or resellers be liable for any indirect, special, incidental or consequential damages arising out of the use of or inability to use the product, including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses, even if advised of the possibility thereof, and regardless of the legal or equitable theory (contract, tort or otherwise) upon which the claim is based. In any case, Licensor's entire liability under any provision of this agreement shall not exceed in the aggregate the sum of the fees Licensee paid for this license (if any).
+
+§ 7 Limitation of liability 
+1. To the maximum extent permitted by applicable law, in no event will SEGGER or its suppliers or resellers be liable for any indirect, special, incidental or consequential damages arising out of the use of or inability to use the software, including, without limitation, damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other 
+commercial damages or losses, even if advised of the possibility thereof, and regardless of the legal or equitable theory (contract, tort or otherwise) upon which the claim is based. In any case, SEGGERs entire liability under any provision of this agreement shall not exceed in the aggregate the sum of the fees Licensee paid for this license (if any), with the exception of 
+death or personal injury caused by the negligence of SEGGER to the extent applicable law prohibits the limitation of damages in such cases. Some jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so this exclusion and limitation may not be applicable. SEGGER is not responsible for any liability arising out of content provided by Licensee or a third party that is accessed through the product and/or any material linked through such content.
+
+§ 8 Miscellaneous
+1. This agreement is governed by German laws.
+2. If any clause in this agreement is held by a court of law to be illegal or unenforceable the remaining provisions of the agreement shall not be affected thereby.
+3. Inspection: SEGGER has the right to have an independent third party review and inspect Licensee use of the software at reasonable times to ensure compliance with the terms of this license.

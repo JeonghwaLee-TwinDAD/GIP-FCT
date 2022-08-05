@@ -1,0 +1,12 @@
+STSW-ST8500GH v2 - June 16, 2021
+
+The STSW-ST8500GH package contains:
+
+- STM32 project for NUCLEO-G070RB
+	STM32_Application_for_ST8500_G3-PLC_Hybrid_v1.3.0.zip, including the Release Note and the User Terminal guidelines in the \NUCLEO-G070RB\Documents\ folder
+- G3-PLC Hybrid GUI
+	G3_GUI_v1560b595_6.1.16.zip, including the ST8500_G3-PLC_Hybrid_GUI_quick_start_guide
+- EVLKST8500GH FW upgrade tool
+	EVLKST8500GH_FW_upgrade_v2.zip, including a README.txt
+	
+Please check for updated versions at https://www.st.com/content/st_com/en/products/embedded-software/evaluation-tool-software/stsw-st8500gh.html
