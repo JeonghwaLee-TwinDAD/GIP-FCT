@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<PCANExplorerProject Version="6.0" AppVersion="6.6.0" Name="GIP CAN">
-    <Connections AutoReset="0" IgnoreRTRLength="0" ProcessRTR="1"/>
-    <Files>
-        <File RelativePath="can_messages.dbc" SelectedIDs="ALL"/>
-    </Files>
-</PCANExplorerProject>

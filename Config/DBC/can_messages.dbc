@@ -1,0 +1,3266 @@
+VERSION ""
+
+NS_ :
+  NS_DESC_
+  CM_
+  BA_DEF_
+  BA_
+  VAL_
+  CAT_DEF_
+  CAT_
+  FILTER
+  BA_DEF_DEF_
+  EV_DATA_
+  ENVVAR_DATA_
+  SGTYPE_
+  SGTYPE_VAL_
+  BA_DEF_SGTYPE_
+  BA_SGTYPE_
+  SIG_TYPE_REF_
+  VAL_TABLE_
+  SIG_GROUP_
+  SIG_VALTYPE_
+  SIGTYPE_VALTYPE_
+  BO_TX_BU_
+  BA_DEF_REL_
+  BA_REL_
+  BA_DEF_DEF_REL_
+  BU_SG_REL_
+  BU_EV_REL_
+  BU_BO_REL_
+  SG_MUL_VAL_
+
+BS_ :
+
+BU_ : BB DCM GIP HC INV IPC TestPC
+
+BO_ 2151681792 BB_Active_Cells_Balancing: 2 BB
+  SG_ cell_10_balancing_active : 9|1@1+ (1,0) [0|1] "" HC
+  SG_ cell_11_balancing_active : 10|1@1+ (1,0) [0|1] "" HC
+  SG_ cell_12_balancing_active : 11|1@1+ (1,0) [0|1] "" HC
+  SG_ cell_1_balancing_active : 0|1@1+ (1,0) [0|1] "" HC
+  SG_ cell_2_balancing_active : 1|1@1+ (1,0) [0|1] "" HC
+  SG_ cell_3_balancing_active : 2|1@1+ (1,0) [0|1] "" HC
+  SG_ cell_4_balancing_active : 3|1@1+ (1,0) [0|1] "" HC
+  SG_ cell_5_balancing_active : 4|1@1+ (1,0) [0|1] "" HC
+  SG_ cell_6_balancing_active : 5|1@1+ (1,0) [0|1] "" HC
+  SG_ cell_7_balancing_active : 6|1@1+ (1,0) [0|1] "" HC
+  SG_ cell_8_balancing_active : 7|1@1+ (1,0) [0|1] "" HC
+  SG_ cell_9_balancing_active : 8|1@1+ (1,0) [0|1] "" HC
+
+BO_ 2353004544 BB_AlertBase: 0 BB
+
+BO_ 2151682048 BB_AlertMatrix: 5 BB
+  SG_ BB_F001_ID4_PrimaryCellUVAlert_ADBMS : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F002_ID6_SecondaryCellUVAlert_BQ : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F003_ID1_PrimaryCellOVAlert_ADBMS : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F004_ID14_CellImbalanceAlert : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F005_ID13_CellMismatchMeasurementAlert : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F006_ID23_HW_CellOvertempAlert : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F007_ID24_BatteryFETOvertempAlert : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F008_ID9_CellOpenWireAlert : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F009_ID5_HW_CellUVAlert_BQ : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F010_ID2_HW_CellOVAlert_BQ : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F011_ID20_OvercurrentChargeAlert : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F012_ID18_OvercurrentDischarge1Alert : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F013_OTPMemoryFailAlert : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F014_DataROMFailAlert : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F015_InstructionROMFailAlert : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F016_LFOFailAlert : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F017_VoltageRefFailAlert : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F018_InternalVSSMEasurementFailAlert : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F019_ComparatorMuxFailAlert : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F020_StackVsSumCellMismatchAlert : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F021_HW_FetOvertempAlert : 20|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F022_ID26_BalanceResOvertempAlert : 21|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F023_GanDeviceOvertempAlert : 22|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F024_HW_CellOTChargeAlert : 23|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F025_HW_CellOTDischargeAlert : 24|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F026_SW_NumFailedThermistors : 25|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F027_ID3_SecondaryCellOVAlert_BQ : 26|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F028_ID34_SW_CellOvertempAlert : 27|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F029_ID17_ShortCircuitDischargeAlert : 28|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F030_ID19_OvercurrentDischarge2Alert : 29|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F031_FailedCommsBQ76952 : 30|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F032_FailedCommsADBMS : 31|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F033_BusOvervoltage : 32|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F034_FlybackInductorAOvervoltage : 33|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F035_FlybackInductorAUndervoltage : 34|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F036_FlybackInductorBOvervoltage : 35|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F037_FlybackInductorBUndervoltage : 36|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F038_InductorAOvercurrent : 37|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_F039_InductorBOvercurrent : 38|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2151684096 BB_Alert_PF_Safety: 7 BB
+  SG_ PFAlertA_CellOT_alert : 30|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertA_CellOV_alert : 25|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertA_CellUV_alert : 24|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertA_CopperDepo_alert : 31|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertA_OCCharge_alert : 26|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertA_OCDischarge_alert : 27|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertA_OT_alert : 28|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertB_2ndLvlProt_alert : 34|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertB_ChgFet_alert : 32|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertB_DChgFet_alert : 33|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertB_SCDischargeLatch_alert : 39|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertB_VImbalanceActive_alert : 36|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertB_VImbalanceRest_alert : 35|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertC_HrdwreMux_alert : 46|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertC_IntLFO_alert : 43|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertC_IntVRef_alert : 44|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertC_IntVSS_alert : 45|1@1+ (1,0) [0|1] "" HC
+  SG_ PFAlertD_StackVsSum_alert : 48|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_0B : 0|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_11B : 11|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_16B : 16|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_17B : 17|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_18B : 18|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_1B : 1|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_29B : 29|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_37B : 37|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_38B : 38|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_40B : 40|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_41B : 41|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_42B : 42|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_47B : 47|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_49B : 49|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_50B : 50|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_51B : 51|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_52B : 52|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_53B : 53|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_54B : 54|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_55B : 55|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyAlertA_CellOV_alert : 3|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyAlertA_CellUV_alert : 2|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyAlertB_IntOTemp_alert : 14|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyAlertB_IntUTemp_alert : 10|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyAlertB_OTempCharge_alert : 12|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyAlertB_OTempDischarge_alert : 13|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyAlertB_UTempCharge_alert : 8|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyAlertB_UTempDischarge_alert : 9|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyAlertC_COVLatch_alert : 20|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyAlertC_OCDischarge3_alert : 23|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyAlertC_OCDischgLatch_alert : 21|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyAlertC_PchgTimeout_alert : 19|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyAlertC_SCDischgLatch_alert : 22|1@1+ (1,0) [0|1] "" HC
+  SG_ SatefyAlertA_OCCharge_alert : 4|1@1+ (1,0) [0|1] "" HC
+  SG_ SatefyAlertA_OCDischarge1_alert : 5|1@1+ (1,0) [0|1] "" HC
+  SG_ SatefyAlertA_OCDischarge2_alert : 6|1@1+ (1,0) [0|1] "" HC
+  SG_ SatefyAlertA_OCDischargeProt_alert : 7|1@1+ (1,0) [0|1] "" HC
+  SG_ SatefyAlertB_FETOTemp_alert : 15|1@1+ (1,0) [0|1] "" HC
+
+BO_ 2151678208 BB_BatteryStatus: 8 BB
+  SG_ BatteryBlockState : 0|8@1+ (1,0) [0|255] "" HC
+  SG_ BatteryCurrentA : 32|16@1- (0.0050000000000000001041,0) [-163.84000000000000341|163.83500000000000796] "A" HC
+  SG_ BatterySOC : 48|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ BatteryVoltageV : 16|16@1+ (0.0010000000000000000208,0) [0|65.534999999999996589] "V" HC
+  SG_ PrechargeState : 8|8@1+ (1,0) [0|255] "" HC
+
+BO_ 2151681536 BB_Board_Temps: 7 BB
+  SG_ BB_Balancing_Temps : 16|8@1+ (0.5,-40) [-40|87.5] "Celsius" HC
+  SG_ BB_FET_Temps : 8|8@1+ (0.5,-40) [-40|87.5] "Celsius" HC
+  SG_ BB_FanDesiredSpeed_RPM : 40|8@1+ (30,0) [0|7650] "RPM" HC
+  SG_ BB_FanMeasuredSpeed_RPM : 48|8@1+ (30,0) [0|7650] "RPM" HC
+  SG_ BB_GAN_Temps : 0|8@1+ (0.5,-40) [-40|87.5] "Celsius" HC
+  SG_ BB_Interal_BQ_Temp : 24|8@1+ (0.5,-40) [-40|87.5] "Celsius" HC
+  SG_ BB_Internal_ADBMS_temp : 32|8@1+ (0.5,-40) [-40|87.5] "Celsius" HC
+
+BO_ 2151679488 BB_CellTemp: 6 BB
+  SG_ Submodule1C : 0|8@1+ (0.5,-40) [-40|87.5] "Celsius" HC
+  SG_ Submodule2C : 8|8@1+ (0.5,-40) [-40|87.5] "Celsius" HC
+  SG_ Submodule3C : 16|8@1+ (0.5,-40) [-40|87.5] "Celsius" HC
+  SG_ Submodule4C : 24|8@1+ (0.5,-40) [-40|87.5] "Celsius" HC
+  SG_ Submodule5C : 32|8@1+ (0.5,-40) [-40|87.5] "Celsius" HC
+  SG_ Submodule6C : 40|8@1+ (0.5,-40) [-40|87.5] "Celsius" HC
+
+BO_ 2151694336 BB_ChargeCurrentLimit: 6 BB
+  SG_ BB_BatteryThermalChargeCurrentLimit_LV : 16|16@1- (0.010000000000000000208,0) [-327.68000000000000682|327.67000000000001592] "A" Vector__XXX
+  SG_ BB_BatteryVoltageRegChargeCurrentLimit_LV : 32|16@1- (0.010000000000000000208,0) [-327.68000000000000682|327.67000000000001592] "A" Vector__XXX
+  SG_ BB_OverallChargeCurrentLimit_LV : 0|16@1- (0.010000000000000000208,0) [-327.68000000000000682|327.67000000000001592] "A" Vector__XXX
+
+BO_ 2151694848 BB_ChgV_PI_Debug: 6 BB
+  SG_ ChgV_PI_error : 0|16@1- (0.0010000000000000000208,0) [-32.768000000000000682|32.767000000000003013] "V" Vector__XXX
+  SG_ ChgV_PI_integrator : 16|16@1- (0.010000000000000000208,0) [-327.68000000000000682|327.67000000000001592] "A" Vector__XXX
+  SG_ ChgV_PI_output : 32|16@1- (0.010000000000000000208,0) [-327.68000000000000682|327.67000000000001592] "A" Vector__XXX
+
+BO_ 2151680000 BB_CommandResetCMD: 1 BB
+  SG_ BB_ResetReq : 0|8@1+ (1,0) [0|255] "" HC
+
+BO_ 2150630656 BB_Control: 8 INV
+  SG_ BB_ControlModeReq : 8|8@1+ (1,0) [0|255] "" BB
+  SG_ BB_DroopBusVoltage : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "V" BB
+  SG_ BB_DroopSlope : 32|16@1+ (0.0010000000000000000208,0) [0|65.534999999999996589] "1/Ohm" BB
+  SG_ BB_IRefCommand : 48|16@1- (0.010000000000000000208,0) [-327.68000000000000682|327.67000000000001592] "A" BB
+  SG_ BB_StateReq : 0|8@1+ (1,0) [0|255] "" BB
+
+BO_ 2151678464 BB_DCDCStatus: 8 BB
+  SG_ BB_BusOverVoltageFault : 41|1@1+ (1,0) [0|1] "" HC
+  SG_ BB_ControlMode : 32|8@1+ (1,0) [0|255] "" HC
+  SG_ BB_DCDC_LV_Voltage : 48|16@1+ (0.0050000000000000001041,0) [0|327.67500000000001137] "V" HC
+  SG_ BB_FlybackAOvervoltageFault : 42|1@1+ (1,0) [0|1] "" HC
+  SG_ BB_FlybackAUndervoltageFault : 43|1@1+ (1,0) [0|1] "" HC
+  SG_ BB_FlybackBOvervoltageFault : 44|1@1+ (1,0) [0|1] "" HC
+  SG_ BB_FlybackBUndervoltageFault : 45|1@1+ (1,0) [0|1] "" HC
+  SG_ BB_HwOverCurrentTrapTripped : 40|1@1+ (1,0) [0|1] "" HC
+  SG_ DCBusCurrentA : 16|16@1- (0.0050000000000000001041,0) [-163.84000000000000341|163.83500000000000796] "A" HC
+  SG_ DCBusVoltageV : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "V" HC
+
+BO_ 2151679744 BB_DCDCTemperatures: 3 BB
+  SG_ BBHeatsinkC : 0|8@1+ (1,-60) [-60|195] "Celsius" HC
+  SG_ FanDutyCycle : 8|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+
+BO_ 2151695104 BB_DchgV_PI_Debug: 6 BB
+  SG_ DchgV_PI_error : 0|16@1- (0.0010000000000000000208,0) [-32.768000000000000682|32.767000000000003013] "V" Vector__XXX
+  SG_ DchgV_PI_integrator : 16|16@1- (0.010000000000000000208,0) [-327.68000000000000682|327.67000000000001592] "A" Vector__XXX
+  SG_ DchgV_PI_output : 32|16@1- (0.010000000000000000208,0) [-327.68000000000000682|327.67000000000001592] "A" Vector__XXX
+
+BO_ 2163475200 BB_DebugSetPWM_A: 2 BB
+  SG_ PWM_A : 0|16@1+ (1,0) [0|65535] "percentage" Vector__XXX
+
+BO_ 2163475456 BB_DebugSetPWM_A_Adjust: 2 BB
+  SG_ PWM_A_Adjust : 0|16@1- (1,0) [-32768|32767] "percentage" Vector__XXX
+
+BO_ 2163475712 BB_DebugSetPWM_B: 2 BB
+  SG_ PWM_B : 0|16@1+ (1,0) [0|65535] "percentage" Vector__XXX
+
+BO_ 2163475968 BB_DebugSetPWM_B_Adjust: 2 BB
+  SG_ PWM_B_Adjust : 0|16@1- (1,0) [-32768|32767] "percentage" Vector__XXX
+
+BO_ 2151694592 BB_DischargeCurrentLimit: 6 BB
+  SG_ BB_BatteryThermalDischargeCurrentLimit_LV : 16|16@1- (0.010000000000000000208,0) [-327.68000000000000682|327.67000000000001592] "A" Vector__XXX
+  SG_ BB_BatteryVoltageRegDischargeCurrentLimit_LV : 32|16@1- (0.010000000000000000208,0) [-327.68000000000000682|327.67000000000001592] "A" Vector__XXX
+  SG_ BB_OverallDischargeCurrentLimit_LV : 0|16@1- (0.010000000000000000208,0) [-327.68000000000000682|327.67000000000001592] "A" Vector__XXX
+
+BO_ 2353070080 BB_F001_PrimaryCellUVAlert: 0 BB
+
+BO_ 2353135616 BB_F002: 0 BB
+
+BO_ 2353201152 BB_F003: 0 BB
+
+BO_ 2353266688 BB_F004: 0 BB
+
+BO_ 2151684352 BB_FET_Battery_Status: 3 BB
+  SG_ ActiveCOWCheck : 5|1@1+ (1,0) [0|1] "" HC
+  SG_ AlertPinAsserted : 22|1@1+ (1,0) [0|1] "" HC
+  SG_ ChargeFEtEnabled : 16|1@1+ (1,0) [0|1] "" HC
+  SG_ DevInConfigUpdateMode : 0|1@1+ (1,0) [0|1] "" HC
+  SG_ DevInPrechargeMode : 1|1@1+ (1,0) [0|1] "" HC
+  SG_ DeviceInSleepMode : 15|1@1+ (1,0) [0|1] "" HC
+  SG_ DigitalChargeAsserted : 20|1@1+ (1,0) [0|1] "" HC
+  SG_ DigitalDischargeAsserted : 21|1@1+ (1,0) [0|1] "" HC
+  SG_ DischargeFETEnabled : 18|1@1+ (1,0) [0|1] "" HC
+  SG_ FullAccessMode : 8|1@1+ (1,0) [0|1] "" HC
+  SG_ FuseAsserted : 10|1@1+ (1,0) [0|1] "" HC
+  SG_ OTPBlocked : 7|1@1+ (1,0) [0|1] "" HC
+  SG_ PFFaultTriggered : 12|1@1+ (1,0) [0|1] "" HC
+  SG_ PendingOTPWrites : 6|1@1+ (1,0) [0|1] "" HC
+  SG_ PendingShutdown : 13|1@1+ (1,0) [0|1] "" HC
+  SG_ PreChargeFETEnabled : 17|1@1+ (1,0) [0|1] "" HC
+  SG_ PredischargeFETEnabled : 19|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_14C : 14|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_23C : 23|1@1+ (1,0) [0|1] "" HC
+  SG_ ResetByWatchdog : 4|1@1+ (1,0) [0|1] "" HC
+  SG_ ResetHasOccured : 3|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyFaultTriggered : 11|1@1+ (1,0) [0|1] "" HC
+  SG_ SealedOrUnsealed : 9|1@1+ (1,0) [0|1] "" HC
+  SG_ SleepIsAllowed : 2|1@1+ (1,0) [0|1] "" HC
+
+BO_ 2152267520 BB_FWUpgradeRx: 8 BB
+
+BO_ 2156199680 BB_FWUpgradeTx: 8 HC
+
+BO_ 2152207104 BB_FWVersion: 7 BB
+  SG_ app_ver_major : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ app_ver_minor : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ app_ver_patch : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_major : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_minor : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_patch : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ hardware_id : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2151688192 BB_FaultThresholdsInfo: 5 BB
+  SG_ MaxCellVoltage : 0|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" Vector__XXX
+  SG_ MinCellVoltage : 16|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" Vector__XXX
+  SG_ OpenWireStatus : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2151687168 BB_FlybackV_InductorC: 8 BB
+  SG_ FlybackVoltageA : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "V" HC
+  SG_ FlybackVoltageB : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "V" HC
+  SG_ InductorCurrentA : 32|16@1- (0.0050000000000000001041,0) [-163.84000000000000341|163.83500000000000796] "A" HC
+  SG_ InductorCurrentB : 48|16@1- (0.0050000000000000001041,0) [-163.84000000000000341|163.83500000000000796] "A" HC
+
+BO_ 2152206848 BB_GetGitHash: 8 BB
+  SG_ GitHash : 0|64@1+ (1,0) [0|18446744073709551616] "" Vector__XXX
+
+BO_ 2151743744 BB_GetPartNumber: 8 BB
+  SG_ lChar0 : 0|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar1 : 6|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar2 : 12|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar3 : 18|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar4 : 24|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar5 : 30|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar6 : 36|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar7 : 42|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar0 : 48|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar1 : 54|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+
+BO_ 2152206336 BB_GetSerialNumber: 7 BB
+  SG_ vendorChar0 : 0|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar1 : 8|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar2 : 16|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ weekAndSerial : 24|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2152207360 BB_GetTestedFlag: 1 BB
+  SG_ BB_TestedFlag : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2151683072 BB_GroupCapacity1to4: 8 BB
+  SG_ CapGroup1V : 0|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ CapGroup2V : 16|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ CapGroup3V : 32|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ CapGroup4V : 48|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+
+BO_ 2151683328 BB_GroupCapacity5to8: 8 BB
+  SG_ CapGroup5V : 0|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ CapGroup6V : 16|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ CapGroup7V : 32|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ CapGroup8V : 48|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+
+BO_ 2151683584 BB_GroupCapacity9to12: 8 BB
+  SG_ CapGroup10V : 16|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ CapGroup11V : 32|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ CapGroup12V : 48|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ CapGroup9V : 0|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+
+BO_ 2151682304 BB_GroupSOC1to4: 8 BB
+  SG_ SOCGroup1V : 0|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ SOCGroup2V : 16|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ SOCGroup3V : 32|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ SOCGroup4V : 48|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+
+BO_ 2151682560 BB_GroupSOC5to8: 8 BB
+  SG_ SOCGroup5V : 0|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ SOCGroup6V : 16|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ SOCGroup7V : 32|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ SOCGroup8V : 48|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+
+BO_ 2151682816 BB_GroupSOC9to12: 8 BB
+  SG_ SOCGroup10V : 16|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ SOCGroup11V : 32|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ SOCGroup12V : 48|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+  SG_ SOCGroup9V : 0|16@1+ (0.10000000000000000555,0) [0|100] "%" HC
+
+BO_ 2151681280 BB_Interrupt_Status: 5 BB
+  SG_ BB_10Hz_Runtime : 0|32@1+ (1,0) [0|4294967295] "" HC
+  SG_ BB_Percent_Usage_10hz : 32|8@1+ (1,0) [0|255] "" HC
+
+BO_ 2151678720 BB_PGroupVoltage1to4: 8 BB
+  SG_ PGroup1V : 0|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup2V : 16|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup3V : 32|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup4V : 48|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+
+BO_ 2151680256 BB_PGroupVoltage1to4_BQ76952: 8 BB
+  SG_ PGroup1V_BQ76952 : 0|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup2V_BQ76952 : 16|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup3V_BQ76952 : 32|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup4V_BQ76952 : 48|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+
+BO_ 2151678976 BB_PGroupVoltage5to8: 8 BB
+  SG_ PGroup5V : 0|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup6V : 16|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup7V : 32|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup8V : 48|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+
+BO_ 2151680512 BB_PGroupVoltage5to8_BQ76952: 8 BB
+  SG_ PGroup5V_BQ76952 : 0|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup6V_BQ76952 : 16|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup7V_BQ76952 : 32|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup8V_BQ76952 : 48|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+
+BO_ 2151679232 BB_PGroupVoltage9to12: 8 BB
+  SG_ PGroup10V : 16|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup11V : 32|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup12V : 48|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup9V : 0|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+
+BO_ 2151680768 BB_PGroupVoltage9to12_BQ76952: 8 BB
+  SG_ PGroup10V_BQ76952 : 16|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup11V_BQ76952 : 32|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup12V_BQ76952 : 48|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+  SG_ PGroup9V_BQ76952 : 0|16@1+ (0.00010000000000000000479,0) [0|6.5535000000000005471] "V" HC
+
+BO_ 2151687680 BB_PWM_Debug1: 8 BB
+  SG_ AdjustA : 32|16@1- (1,0) [-32768|32767] "counts" HC
+  SG_ AdjustB : 48|16@1- (1,0) [-32768|32767] "counts" HC
+  SG_ DutyCycleA : 0|16@1+ (1,0) [0|65535] "counts" HC
+  SG_ DutyCycleB : 16|16@1+ (1,0) [0|65535] "counts" HC
+
+BO_ 2151687936 BB_PWM_Debug2: 8 BB
+  SG_ ErrorA : 48|8@1- (1,0) [-128|127] "counts" HC
+  SG_ ErrorB : 56|8@1- (1,0) [-128|127] "counts" HC
+  SG_ FeedForward : 0|16@1+ (1,0) [0|65535] "counts" HC
+  SG_ IRefClamped : 32|16@1- (0.0050000000000000001041,0) [-163.84000000000000341|163.83500000000000796] "A" HC
+  SG_ IRefDroopCalcA : 16|16@1- (0.0050000000000000001041,0) [-163.84000000000000341|163.83500000000000796] "A" HC
+
+BO_ 2151686400 BB_RealTimeClock: 8 BB
+  SG_ Time_ms : 0|64@1+ (1,0) [0|18446744073709551616] "milliseconds" HC
+
+BO_ 2150630912 BB_ResetTraps: 1 HC
+  SG_ BB_Reset_HwOverCurrentTrap : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2163474944 BB_SetPartNumber: 8 Vector__XXX
+  SG_ lChar0 : 0|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar1 : 6|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar2 : 12|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar3 : 18|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar4 : 24|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar5 : 30|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar6 : 36|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar7 : 42|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar0 : 48|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar1 : 54|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+
+BO_ 2151686656 BB_SetRealTimeClock: 8 HC
+  SG_ Time_ms : 0|64@1+ (1,0) [0|18446744073709551616] "milliseconds" BB
+
+BO_ 2163474688 BB_SetSerialNumber: 7 Vector__XXX
+  SG_ vendorChar0 : 0|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar1 : 8|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar2 : 16|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ weekAndSerial : 24|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2163539456 BB_SetTestedFlag: 1 Vector__XXX
+  SG_ BB_TestedFlag : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2151810816 BB_Set_Phase_Enables: 1 BB
+  SG_ BB_EnabledPhases : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2151686144 BB_SourceAddrClaimCmd: 7 BB
+  SG_ vendorChar0 : 0|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar1 : 8|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar2 : 16|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ weekAndSerial : 24|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2148536320 BB_SourceAddrClaimRsp: 8 HC
+  SG_ SlaveAddress : 56|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ vendorChar0 : 0|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar1 : 8|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar2 : 16|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ weekAndSerial : 24|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2151681024 BB_Status_BQ76952: 4 BB
+  SG_ FETStatus : 0|8@1+ (1,0) [0|255] "" HC
+  SG_ PF_STATUS_A : 8|8@1+ (1,0) [0|255] "" HC
+  SG_ PF_STATUS_B : 16|8@1+ (1,0) [0|255] "" HC
+  SG_ PF_STATUS_C : 24|8@1+ (1,0) [0|255] "" HC
+
+BO_ 2151683840 BB_Status_PF_Safety: 7 BB
+  SG_ PFStatusA_CellOT_fault : 30|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusA_CellOV_fault : 25|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusA_CellUV_fault : 24|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusA_CopperDepo_fault : 31|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusA_OCCharge_fault : 26|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusA_OCDischarge_fault : 27|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusA_OT_fault : 28|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusB_2ndLvlProtFault : 34|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusB_ChgFet_fault : 32|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusB_DChgFet_fault : 33|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusB_SCDischargeLatch_fault : 39|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusB_VImbalanceActive_fault : 36|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusB_VImbalanceRest_fault : 35|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusC_Commanded_fault : 47|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusC_DataROM_fault : 41|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusC_HrdwreMux_fault : 46|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusC_InstrROM_fault : 42|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusC_IntLFO_fault : 43|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusC_IntVRef_fault : 44|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusC_IntVSS_fault : 45|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusC_OTPMem_fault : 40|1@1+ (1,0) [0|1] "" HC
+  SG_ PFStatusD_StackVsSum_fault : 48|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_0A : 0|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_11A : 11|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_16A : 16|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_19A : 19|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_1A : 1|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_29A : 29|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_37A : 37|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_38A : 38|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_40A : 50|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_49A : 49|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_51A : 51|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_52A : 52|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_53A : 53|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_54A : 54|1@1+ (1,0) [0|1] "" HC
+  SG_ Reserved_55A : 55|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusA_CellOV_fault : 3|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusA_CellUV_fault : 2|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusB_IntOTemp_fault : 14|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusB_IntUTemp_fault : 10|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusB_OTempCharge_fault : 12|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusB_OTempDischarge_fault : 13|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusB_UTempCharge_fault : 8|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusB_UTempDischarge_fault : 9|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusC_COVLatch_fault : 20|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusC_HostWDT_fault : 17|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusC_OCDischarge3_fault : 23|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusC_OCDischgLatch_fault : 21|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusC_PchgTimeout_fault : 18|1@1+ (1,0) [0|1] "" HC
+  SG_ SafetyStatusC_SCDischgLatch_fault : 22|1@1+ (1,0) [0|1] "" HC
+  SG_ SatefyStatusA_OCCharge_fault : 4|1@1+ (1,0) [0|1] "" HC
+  SG_ SatefyStatusA_OCDischarge1_fault : 5|1@1+ (1,0) [0|1] "" HC
+  SG_ SatefyStatusA_OCDischarge2_fault : 6|1@1+ (1,0) [0|1] "" HC
+  SG_ SatefyStatusA_OCDischargeProt_fault : 7|1@1+ (1,0) [0|1] "" HC
+  SG_ SatefyStatusB_FETOTemp_fault : 15|1@1+ (1,0) [0|1] "" HC
+
+BO_ 2151687424 BB_TargetBusCurrent: 2 BB
+  SG_ TargetBusCurrent : 0|16@1- (0.0050000000000000001041,0) [-163.84000000000000341|163.83500000000000796] "A" HC
+
+BO_ 2151686912 BB_TaskTiming: 6 BB
+  SG_ FastControlLoop_Pct : 40|8@1+ (1,0) [0|255] "pct" HC
+  SG_ SlowControlLoop_Pct : 32|8@1+ (1,0) [0|255] "pct" HC
+  SG_ Task_100_Hz_Pct : 16|8@1+ (1,0) [0|255] "pct" HC
+  SG_ Task_10_Hz_Pct : 8|8@1+ (1,0) [0|255] "pct" HC
+  SG_ Task_1_Hz_Pct : 0|8@1+ (1,0) [0|255] "pct" HC
+  SG_ Task_1_kHz_Pct : 24|8@1+ (1,0) [0|255] "pct" HC
+
+BO_ 2151688448 BB_WarningMatrix: 3 BB
+  SG_ BB_W001_ID4_PrimaryCellUVWarn_ADBMS : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W002_ID6_SecondaryCellUVWarn_BQ : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W003_ID1_PrimaryCellOVWarn_ADBMS : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W004_ID14_CellImbalanceWarn : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W005_ID13_CellMismatchMeasurementWarn : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W006_ID23_HW_CellOvertempWarn : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W007_ID24_BatteryFETOvertempWarn : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W008_ID9_CellOpenWireWarn : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W009_ID5_HW_CellUVWarn_BQ : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W010_ID2_HW_CellOVWarn_BQ : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W011_ID20_OvercurrentChargeWarn : 10|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W012_ID18_OvercurrentDischarge1Warn : 11|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W013_ID26_BalanceResOvertempWarn : 12|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W014_GanDeviceOvertempWarn : 13|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W015_HW_CellOTChargeWarn : 14|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W016_HW_CellOTDischargeWarn : 15|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W017_ID3_SecondaryCellOVWarn_BQ : 16|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W018_ID34_SW_CellOvertempWarn : 17|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W019_ID17_ShortCircuitDischargeWarn : 18|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ BB_W020_ID19_OvercurrentDischarge2Warn : 19|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2153775616 DCM_CommandResetCMD: 1 DCM
+  SG_ DCM_ResetReq : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2153775360 DCM_CommandStatusReqCMD: 2 HC
+  SG_ DCM_Dummy : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ DCM_StateReq : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2153776896 DCM_CurrentVoltageMeasured: 8 DCM
+  SG_ Current : 0|32@1- (3.0000000000000003936e-07,0) [-644.24509439999997085|644.24509409999996024] "" Vector__XXX
+  SG_ Voltage : 32|32@1- (3.0000000000000003936e-07,0) [-644.24509439999997085|644.24509409999996024] "" Vector__XXX
+
+BO_ 2153776384 DCM_EnergyMeasured: 8 DCM
+  SG_ EnergyExport : 0|32@1+ (3.0000000000000003936e-07,0) [0|1288.4901884999999311] "" Vector__XXX
+  SG_ EnergyImport : 32|32@1+ (3.0000000000000003936e-07,0) [0|1288.4901884999999311] "" Vector__XXX
+
+BO_ 2154364672 DCM_FWUpgradeRx: 8 DCM
+
+BO_ 2156330752 DCM_FWUpgradeTx: 8 HC
+
+BO_ 2154304256 DCM_FWVersion: 7 DCM
+  SG_ app_ver_major : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ app_ver_minor : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ app_ver_patch : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_major : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_minor : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_patch : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ hardware_id : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2154304000 DCM_GetGitHash: 8 DCM
+  SG_ GitHash : 0|64@1+ (1,0) [0|18446744073709551616] "" Vector__XXX
+
+BO_ 2154303744 DCM_GetPartNumber: 8 DCM
+  SG_ lChar0 : 0|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar1 : 6|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar2 : 12|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar3 : 18|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar4 : 24|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar5 : 30|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar6 : 36|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar7 : 42|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar0 : 48|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar1 : 54|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+
+BO_ 2154303488 DCM_GetSerialNumber: 7 DCM
+  SG_ vendorChar0 : 0|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar1 : 8|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar2 : 16|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ weekAndSerial : 24|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2154304512 DCM_GetTestedFlag: 1 DCM
+  SG_ DCM_TestedFlag : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2153776640 DCM_PowerMeasured: 4 DCM
+  SG_ Power : 0|32@1- (3.0000000000000003936e-07,0) [-644.24509439999997085|644.24509409999996024] "" Vector__XXX
+
+BO_ 2163606016 DCM_SetPartNumber: 8 Vector__XXX
+  SG_ lChar0 : 0|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar1 : 6|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar2 : 12|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar3 : 18|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar4 : 24|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar5 : 30|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar6 : 36|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar7 : 42|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar0 : 48|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar1 : 54|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+
+BO_ 2163605760 DCM_SetSerialNumber: 7 Vector__XXX
+  SG_ vendorChar0 : 0|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar1 : 8|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar2 : 16|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ weekAndSerial : 24|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2163670528 DCM_SetTestedFlag: 1 Vector__XXX
+  SG_ DCM_TestedFlag : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2153255936 GIP_FWUpgradeRx: 8 Vector__XXX
+
+BO_ 2156204032 GIP_FWUpgradeTx: 8 HC
+
+BO_ 2153255680 GIP_FWVersion: 7 Vector__XXX
+  SG_ app_ver_major : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ app_ver_minor : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ app_ver_patch : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_major : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_minor : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_patch : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ hardware_id : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2153255424 GIP_GetGitHash: 8 Vector__XXX
+  SG_ GitHash : 0|64@1+ (1,0) [0|18446744073709551616] "" Vector__XXX
+
+BO_ 2153255168 GIP_GetPartNumber: 8 Vector__XXX
+  SG_ lChar0 : 0|6@1+ (1,0) [0|63] "base64 alphabet" GIP
+  SG_ lChar1 : 6|6@1+ (1,0) [0|63] "base64 alphabet" GIP
+  SG_ lChar2 : 12|6@1+ (1,0) [0|63] "base64 alphabet" GIP
+  SG_ lChar3 : 18|6@1+ (1,0) [0|63] "base64 alphabet" GIP
+  SG_ lChar4 : 24|6@1+ (1,0) [0|63] "base64 alphabet" GIP
+  SG_ lChar5 : 30|6@1+ (1,0) [0|63] "base64 alphabet" GIP
+  SG_ lChar6 : 36|6@1+ (1,0) [0|63] "base64 alphabet" GIP
+  SG_ lChar7 : 42|6@1+ (1,0) [0|63] "base64 alphabet" GIP
+  SG_ rChar0 : 48|6@1+ (1,0) [0|63] "base64 alphabet" GIP
+  SG_ rChar1 : 54|6@1+ (1,0) [0|63] "base64 alphabet" GIP
+
+BO_ 2153254912 GIP_GetSerialNumber: 7 Vector__XXX
+  SG_ vendorChar0 : 0|8@1+ (1,0) [0|255] "ascii" GIP
+  SG_ vendorChar1 : 8|8@1+ (1,0) [0|255] "ascii" GIP
+  SG_ vendorChar2 : 16|8@1+ (1,0) [0|255] "ascii" GIP
+  SG_ weekAndSerial : 24|32@1+ (1,0) [0|4294967295] "" GIP
+
+BO_ 2153256192 GIP_GetTestedFlag: 1 Vector__XXX
+  SG_ GIP_TestedFlag : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2153252608 GIP_Grid_ActiveEnergyExported: 8 Vector__XXX
+  SG_ GIP_Grid_ActiveEnergyExported_L1 : 0|32@1+ (1,0) [0|4294967295] "W-hr" GIP
+  SG_ GIP_Grid_ActiveEnergyExported_L2 : 32|32@1+ (1,0) [0|4294967295] "W-hr" GIP
+
+BO_ 2153252096 GIP_Grid_ActiveEnergyImported: 8 Vector__XXX
+  SG_ GIP_Grid_ActiveEnergyImported_L1 : 0|32@1+ (1,0) [0|4294967295] "W-hr" GIP
+  SG_ GIP_Grid_ActiveEnergyImported_L2 : 32|32@1+ (1,0) [0|4294967295] "W-hr" GIP
+
+BO_ 2153251584 GIP_Grid_Power: 8 Vector__XXX
+  SG_ GIP_Grid_ActivePower_L1 : 0|16@1- (1,0) [-32768|32767] "W" GIP
+  SG_ GIP_Grid_ActivePower_L2 : 16|16@1- (1,0) [-32768|32767] "W" GIP
+  SG_ GIP_Grid_ReactivePower_L1 : 32|16@1- (1,0) [-32768|32767] "W" GIP
+  SG_ GIP_Grid_ReactivePower_L2 : 48|16@1- (1,0) [-32768|32767] "W" GIP
+
+BO_ 2153253120 GIP_Grid_TotalActiveEnergy: 8 Vector__XXX
+  SG_ GIP_Grid_TotalActiveEnergyExported : 32|32@1+ (1,0) [0|4294967295] "W-hr" GIP
+  SG_ GIP_Grid_TotalActiveEnergyImported : 0|32@1+ (1,0) [0|4294967295] "W-hr" GIP
+
+BO_ 2152730880 GIP_Grid_Voltage: 6 Vector__XXX
+  SG_ GIP_Grid_RMSVoltage_L1 : 0|16@1+ (1,0) [0|65535] "V" Vector__XXX
+  SG_ GIP_Grid_RMSVoltage_L2 : 16|16@1+ (1,0) [0|65535] "V" Vector__XXX
+  SG_ GIP_Grid_Voltage_Frequency : 32|16@1+ (1,0) [0|65535] "Hz" Vector__XXX
+
+BO_ 2153252352 GIP_Load_ActiveEnergyExported: 8 Vector__XXX
+  SG_ GIP_Load_ActiveEnergyExported_L1 : 0|32@1+ (1,0) [0|4294967295] "W-hr" GIP
+  SG_ GIP_Load_ActiveEnergyExported_L2 : 32|32@1+ (1,0) [0|4294967295] "W-hr" GIP
+
+BO_ 2153251840 GIP_Load_ActiveEnergyImported: 8 Vector__XXX
+  SG_ GIP_Load_ActiveEnergyImported_L1 : 0|32@1+ (1,0) [0|4294967295] "W-hr" GIP
+  SG_ GIP_Load_ActiveEnergyImported_L2 : 32|32@1+ (1,0) [0|4294967295] "W-hr" GIP
+
+BO_ 2153251328 GIP_Load_Power: 8 Vector__XXX
+  SG_ GIP_Load_ActivePower_L1 : 0|16@1- (1,0) [-32768|32767] "W" GIP
+  SG_ GIP_Load_ActivePower_L2 : 16|16@1- (1,0) [-32768|32767] "W" GIP
+  SG_ GIP_Load_ReactivePower_L1 : 32|16@1- (1,0) [-32768|32767] "W" GIP
+  SG_ GIP_Load_ReactivePower_L2 : 48|16@1- (1,0) [-32768|32767] "W" GIP
+
+BO_ 2153252864 GIP_Load_TotalActiveEnergy: 8 Vector__XXX
+  SG_ GIP_Load_TotalActiveEnergyExported : 32|32@1+ (1,0) [0|4294967295] "W-hr" GIP
+  SG_ GIP_Load_TotalActiveEnergyImported : 0|32@1+ (1,0) [0|4294967295] "W-hr" GIP
+
+BO_ 2152730624 GIP_Load_Voltage: 6 Vector__XXX
+  SG_ GIP_Load_RMSVoltage_L1 : 0|16@1+ (1,0) [0|65535] "V" Vector__XXX
+  SG_ GIP_Load_RMSVoltage_L2 : 16|16@1+ (1,0) [0|65535] "V" Vector__XXX
+  SG_ GIP_Load_Voltage_Frequency : 32|16@1+ (1,0) [0|65535] "Hz" Vector__XXX
+
+BO_ 2163540736 GIP_ManufacturingControl: 1 GIP
+  SG_ ESP32Comms : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ FaultLED : 2|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ Relay : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ ST8500Comms : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ StatusLED : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2156265216 GIP_ResetCommand: 1 HC
+  SG_ Reset : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2163540480 GIP_SetPartNumber: 8 GIP
+  SG_ lChar0 : 0|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar1 : 6|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar2 : 12|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar3 : 18|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar4 : 24|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar5 : 30|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar6 : 36|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar7 : 42|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar0 : 48|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar1 : 54|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+
+BO_ 2163540224 GIP_SetSerialNumber: 7 GIP
+  SG_ vendorChar0 : 0|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar1 : 8|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar2 : 16|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ weekAndSerial : 24|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2163604992 GIP_SetTestedFlag: 1 GIP
+  SG_ GIP_TestedFlag : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2153251072 GIP_Status: 2 Vector__XXX
+  SG_ GIP_Relay_State : 8|8@1+ (1,0) [0|255] "" GIP
+  SG_ GIP_State : 0|8@1+ (1,0) [0|255] "" GIP
+
+BO_ 2163601408 GIP_TestMode: 1 GIP
+  SG_ GIP_TestModeFlag : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2156003584 HC_TestRx: 1 Vector__XXX
+  SG_ payload : 0|8@1+ (1,0) [0|255] "" HC
+
+BO_ 2155872512 HC_TestTx: 1 HC
+  SG_ payload : 0|8@1+ (1,0) [0|255] "" TestPC
+
+BO_ 2150695936 INV_ACM_Voltage: 6 INV
+  SG_ INV_ACM_RMSVoltage_L1 : 0|16@1+ (1,0) [0|65535] "V" Vector__XXX
+  SG_ INV_ACM_RMSVoltage_L2 : 16|16@1+ (1,0) [0|65535] "V" Vector__XXX
+  SG_ INV_ACM_Voltage_Frequency : 32|16@1+ (1,0) [0|65535] "Hz" Vector__XXX
+
+BO_ 2150174208 INV_APEnable_CMD: 1 HC
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149125632 INV_APEnable_RSP: 1 INV
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150174464 INV_AP_CMD: 2 HC
+  SG_ value : 0|16@1- (0.010000000000000000208,0) [-100|100] "%capability" Vector__XXX
+
+BO_ 2149125888 INV_AP_RSP: 2 INV
+  SG_ value : 0|16@1- (0.010000000000000000208,0) [-100|100] "%capability" Vector__XXX
+
+BO_ 2148930048 INV_AlarmState: 4 INV
+  SG_ alarmState : 0|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2151153920 INV_Clear_Ground_Fault_Cmd: 1 HC
+  SG_ Clear_Ground_Fault_Cmd : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2148925696 INV_CommandResetCMD: 1 INV
+  SG_ INV_ResetReq : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2148926464 INV_CommandStatusReqCMD: 2 HC
+  SG_ INV_L1L2InPhaseReq : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ INV_StateReq : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150236416 INV_ConnectCmd: 1 HC
+  SG_ connected : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149187840 INV_ConnectRsp: 1 INV
+  SG_ connected : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150761216 INV_CurrentVoltageMeasured: 8 INV
+  SG_ Current : 0|32@1- (3.0000000000000003936e-07,0) [-644.24509439999997085|644.24509409999996024] "" Vector__XXX
+  SG_ Voltage : 32|32@1- (3.0000000000000003936e-07,0) [-644.24509439999997085|644.24509409999996024] "" Vector__XXX
+
+BO_ 2148992000 INV_DCBusStatusRSP: 8 INV
+  SG_ NegBusCurrent : 48|16@1+ (0.0050000000000000001041,0) [0|327.67500000000001137] "A" Vector__XXX
+  SG_ NegBusVoltage : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "V" Vector__XXX
+  SG_ PosBusCurrent : 32|16@1+ (0.0050000000000000001041,0) [0|327.67500000000001137] "A" Vector__XXX
+  SG_ PosBusVoltage : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "V" Vector__XXX
+
+BO_ 2151153664 INV_DC_Bus_Control_Cmd: 1 HC
+  SG_ Bus_Control_Cmd : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150760704 INV_EnergyMeasured: 8 INV
+  SG_ EnergyExport : 0|32@1+ (3.0000000000000003936e-07,0) [0|1288.4901884999999311] "" Vector__XXX
+  SG_ EnergyImport : 32|32@1+ (3.0000000000000003936e-07,0) [0|1288.4901884999999311] "" Vector__XXX
+
+BO_ 2150174976 INV_EnterServiceDelay_CMD: 8 HC
+  SG_ ESDelay : 0|32@1+ (0.010000000000000000208,0) [0|42949672.95000000298] "s" Vector__XXX
+  SG_ ESRandomDelay : 32|32@1+ (0.010000000000000000208,0) [0|42949672.95000000298] "s" Vector__XXX
+
+BO_ 2149126400 INV_EnterServiceDelay_RSP: 8 INV
+  SG_ ESDelay : 0|32@1+ (0.010000000000000000208,0) [0|42949672.95000000298] "s" Vector__XXX
+  SG_ ESRandomDelay : 32|32@1+ (0.010000000000000000208,0) [0|42949672.95000000298] "s" Vector__XXX
+
+BO_ 2150175232 INV_EnterServiceRamp_CMD: 4 HC
+  SG_ ESRampTms : 0|32@1+ (0.010000000000000000208,0) [0|42949672.95000000298] "s" Vector__XXX
+
+BO_ 2149126656 INV_EnterServiceRamp_RSP: 4 INV
+  SG_ ESRampTms : 0|32@1+ (0.010000000000000000208,0) [0|42949672.95000000298] "s" Vector__XXX
+
+BO_ 2150174720 INV_EnterServiceThr_CMD: 8 HC
+  SG_ ESHighFreq : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ ESHighVolt : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%nominal" Vector__XXX
+  SG_ ESLowFreq : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ ESLowVolt : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%nominal" Vector__XXX
+
+BO_ 2149126144 INV_EnterServiceThr_RSP: 8 INV
+  SG_ ESHighFreq : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ ESHighVolt : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%nominal" Vector__XXX
+  SG_ ESLowFreq : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ ESLowVolt : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%nominal" Vector__XXX
+
+BO_ 2150760192 INV_FWUpgradeRx: 8 INV
+
+BO_ 2149581056 INV_FWUpgradeTx: 8 HC
+
+BO_ 2150699776 INV_FWVersion: 7 INV
+  SG_ app_ver_major : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ app_ver_minor : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ app_ver_patch : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_major : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_minor : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_patch : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ hardware_id : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150176000 INV_FreqDroopChange_CMD: 6 HC
+  SG_ RspTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ kof : 0|16@1+ (0.0010000000000000000208,0) [0|65.534999999999996589] "" Vector__XXX
+  SG_ kuf : 16|16@1+ (0.0010000000000000000208,0) [0|65.534999999999996589] "" Vector__XXX
+
+BO_ 2149127424 INV_FreqDroopChange_RSP: 6 INV
+  SG_ RspTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ kof : 0|16@1+ (0.0010000000000000000208,0) [0|65.534999999999996589] "" Vector__XXX
+  SG_ kuf : 16|16@1+ (0.0010000000000000000208,0) [0|65.534999999999996589] "" Vector__XXX
+
+BO_ 2150175744 INV_FreqDroopDeadbands_CMD: 8 HC
+  SG_ dbof : 0|32@1+ (0.0010000000000000000208,0) [0|4294967.2949999999255] "Hz" Vector__XXX
+  SG_ dbuf : 32|32@1+ (0.0010000000000000000208,0) [0|4294967.2949999999255] "Hz" Vector__XXX
+
+BO_ 2149127168 INV_FreqDroopDeadbands_RSP: 8 INV
+  SG_ dbof : 0|32@1+ (0.0010000000000000000208,0) [0|4294967.2949999999255] "Hz" Vector__XXX
+  SG_ dbuf : 32|32@1+ (0.0010000000000000000208,0) [0|4294967.2949999999255] "Hz" Vector__XXX
+
+BO_ 2150175488 INV_FreqDroopEnable_CMD: 1 HC
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149126912 INV_FreqDroopEnable_RSP: 1 INV
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150182912 INV_FreqWatt_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149134336 INV_FreqWatt_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150183168 INV_FreqWatt_Metadata_CMD: 1 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2149134592 INV_FreqWatt_Metadata_RSP: 1 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2150183936 INV_FreqWatt_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_0 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_1 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2149135360 INV_FreqWatt_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_0 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_1 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2150184192 INV_FreqWatt_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_2 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_3 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2149135616 INV_FreqWatt_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_2 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_3 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2150184448 INV_FreqWatt_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_4 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_5 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2149135872 INV_FreqWatt_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_4 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_5 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2150184704 INV_FreqWatt_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_6 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_7 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2149136128 INV_FreqWatt_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_6 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_7 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2150184960 INV_FreqWatt_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_8 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_9 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2149136384 INV_FreqWatt_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_8 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_9 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2150183424 INV_FreqWatt_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149134848 INV_FreqWatt_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2148929792 INV_Frequency: 2 INV
+  SG_ frequency : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150699520 INV_GetGitHash: 8 INV
+  SG_ GitHash : 0|64@1+ (1,0) [0|18446744073709551616] "" Vector__XXX
+
+BO_ 2150699264 INV_GetPartNumber: 8 INV
+  SG_ lChar0 : 0|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar1 : 6|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar2 : 12|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar3 : 18|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar4 : 24|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar5 : 30|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar6 : 36|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar7 : 42|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar0 : 48|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar1 : 54|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+
+BO_ 2150699008 INV_GetSerialNumber: 7 INV
+  SG_ vendorChar0 : 0|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar1 : 8|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar2 : 16|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ weekAndSerial : 24|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2150700032 INV_GetTestedFlag: 1 INV
+  SG_ INV_TestedFlag : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150191104 INV_HFRTMayTrip_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149142528 INV_HFRTMayTrip_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150191360 INV_HFRTMayTrip_Metadata_CMD: 1 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2149142784 INV_HFRTMayTrip_Metadata_RSP: 1 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2150192128 INV_HFRTMayTrip_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149143552 INV_HFRTMayTrip_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150192384 INV_HFRTMayTrip_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149143808 INV_HFRTMayTrip_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150192640 INV_HFRTMayTrip_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149144064 INV_HFRTMayTrip_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150192896 INV_HFRTMayTrip_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149144320 INV_HFRTMayTrip_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150193152 INV_HFRTMayTrip_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149144576 INV_HFRTMayTrip_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150191616 INV_HFRTMayTrip_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149143040 INV_HFRTMayTrip_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2150195200 INV_HFRTMustTrip_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149146624 INV_HFRTMustTrip_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150195456 INV_HFRTMustTrip_Metadata_CMD: 1 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2149146880 INV_HFRTMustTrip_Metadata_RSP: 1 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2150196224 INV_HFRTMustTrip_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149147648 INV_HFRTMustTrip_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150196480 INV_HFRTMustTrip_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149147904 INV_HFRTMustTrip_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150196736 INV_HFRTMustTrip_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149148160 INV_HFRTMustTrip_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150196992 INV_HFRTMustTrip_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149148416 INV_HFRTMustTrip_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150197248 INV_HFRTMustTrip_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149148672 INV_HFRTMustTrip_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150195712 INV_HFRTMustTrip_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149147136 INV_HFRTMustTrip_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2150211584 INV_HVRTMC_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149163008 INV_HVRTMC_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150211840 INV_HVRTMC_Metadata_CMD: 1 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2149163264 INV_HVRTMC_Metadata_RSP: 1 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2150212608 INV_HVRTMC_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149164032 INV_HVRTMC_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150212864 INV_HVRTMC_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149164288 INV_HVRTMC_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150213120 INV_HVRTMC_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149164544 INV_HVRTMC_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150213376 INV_HVRTMC_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149164800 INV_HVRTMC_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150213632 INV_HVRTMC_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149165056 INV_HVRTMC_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150212096 INV_HVRTMC_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149163520 INV_HVRTMC_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2150207488 INV_HVRTMayTrip_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149158912 INV_HVRTMayTrip_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150207744 INV_HVRTMayTrip_Metadata_CMD: 1 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2149159168 INV_HVRTMayTrip_Metadata_RSP: 1 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2150208512 INV_HVRTMayTrip_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149159936 INV_HVRTMayTrip_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150208768 INV_HVRTMayTrip_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149160192 INV_HVRTMayTrip_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150209024 INV_HVRTMayTrip_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149160448 INV_HVRTMayTrip_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150209280 INV_HVRTMayTrip_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149160704 INV_HVRTMayTrip_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150209536 INV_HVRTMayTrip_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149160960 INV_HVRTMayTrip_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150208000 INV_HVRTMayTrip_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149159424 INV_HVRTMayTrip_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2150215680 INV_HVRTMustTrip_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149167104 INV_HVRTMustTrip_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150215936 INV_HVRTMustTrip_Metadata_CMD: 1 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2149167360 INV_HVRTMustTrip_Metadata_RSP: 1 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2150216704 INV_HVRTMustTrip_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149168128 INV_HVRTMustTrip_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150216960 INV_HVRTMustTrip_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149168384 INV_HVRTMustTrip_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150217216 INV_HVRTMustTrip_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149168640 INV_HVRTMustTrip_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150217472 INV_HVRTMustTrip_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149168896 INV_HVRTMustTrip_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150217728 INV_HVRTMustTrip_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149169152 INV_HVRTMustTrip_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150216192 INV_HVRTMustTrip_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149167616 INV_HVRTMustTrip_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2148991488 INV_L2LStatusRSP: 4 INV
+  SG_ L1L2CurrentArms : 16|16@1- (0.0050000000000000001041,0) [-163.84000000000000341|163.83500000000000796] "A" Vector__XXX
+  SG_ L1L2VoltageVrms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "V" Vector__XXX
+
+BO_ 2148991744 INV_L2NStatusRSP: 8 INV
+  SG_ L1NCurrentArms : 32|16@1- (0.0050000000000000001041,0) [-163.84000000000000341|163.83500000000000796] "A" Vector__XXX
+  SG_ L1NVoltageVrms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "V" Vector__XXX
+  SG_ L2NCurrentArms : 48|16@1- (0.0050000000000000001041,0) [-163.84000000000000341|163.83500000000000796] "A" Vector__XXX
+  SG_ L2NVoltageVrms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "V" Vector__XXX
+
+BO_ 2150199296 INV_LFRTMayTrip_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149150720 INV_LFRTMayTrip_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150199552 INV_LFRTMayTrip_Metadata_CMD: 1 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2149150976 INV_LFRTMayTrip_Metadata_RSP: 1 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2150200320 INV_LFRTMayTrip_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149151744 INV_LFRTMayTrip_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150200576 INV_LFRTMayTrip_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149152000 INV_LFRTMayTrip_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150200832 INV_LFRTMayTrip_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149152256 INV_LFRTMayTrip_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150201088 INV_LFRTMayTrip_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149152512 INV_LFRTMayTrip_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150201344 INV_LFRTMayTrip_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149152768 INV_LFRTMayTrip_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150199808 INV_LFRTMayTrip_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149151232 INV_LFRTMayTrip_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2150203392 INV_LFRTMustTrip_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149154816 INV_LFRTMustTrip_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150203648 INV_LFRTMustTrip_Metadata_CMD: 1 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2149155072 INV_LFRTMustTrip_Metadata_RSP: 1 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2150204416 INV_LFRTMustTrip_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149155840 INV_LFRTMustTrip_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150204672 INV_LFRTMustTrip_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149156096 INV_LFRTMustTrip_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150204928 INV_LFRTMustTrip_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149156352 INV_LFRTMustTrip_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150205184 INV_LFRTMustTrip_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149156608 INV_LFRTMustTrip_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150205440 INV_LFRTMustTrip_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2149156864 INV_LFRTMustTrip_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "Hz" Vector__XXX
+
+BO_ 2150203904 INV_LFRTMustTrip_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149155328 INV_LFRTMustTrip_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2150223872 INV_LVRTMC_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149175296 INV_LVRTMC_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150224128 INV_LVRTMC_Metadata_CMD: 1 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2149175552 INV_LVRTMC_Metadata_RSP: 1 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2150224896 INV_LVRTMC_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149176320 INV_LVRTMC_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150225152 INV_LVRTMC_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149176576 INV_LVRTMC_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150225408 INV_LVRTMC_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149176832 INV_LVRTMC_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150225664 INV_LVRTMC_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149177088 INV_LVRTMC_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150225920 INV_LVRTMC_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149177344 INV_LVRTMC_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150224384 INV_LVRTMC_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149175808 INV_LVRTMC_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2150219776 INV_LVRTMayTrip_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149171200 INV_LVRTMayTrip_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150220032 INV_LVRTMayTrip_Metadata_CMD: 1 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2149171456 INV_LVRTMayTrip_Metadata_RSP: 1 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2150220800 INV_LVRTMayTrip_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149172224 INV_LVRTMayTrip_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150221056 INV_LVRTMayTrip_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149172480 INV_LVRTMayTrip_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150221312 INV_LVRTMayTrip_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149172736 INV_LVRTMayTrip_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150221568 INV_LVRTMayTrip_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149172992 INV_LVRTMayTrip_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150221824 INV_LVRTMayTrip_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149173248 INV_LVRTMayTrip_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150220288 INV_LVRTMayTrip_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149171712 INV_LVRTMayTrip_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2150227968 INV_LVRTMustTrip_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149179392 INV_LVRTMustTrip_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150228224 INV_LVRTMustTrip_Metadata_CMD: 1 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2149179648 INV_LVRTMustTrip_Metadata_RSP: 1 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+
+BO_ 2150228992 INV_LVRTMustTrip_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149180416 INV_LVRTMustTrip_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_0 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_1 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150229248 INV_LVRTMustTrip_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149180672 INV_LVRTMustTrip_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_2 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_3 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150229504 INV_LVRTMustTrip_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149180928 INV_LVRTMustTrip_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_4 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_5 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150229760 INV_LVRTMustTrip_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149181184 INV_LVRTMustTrip_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_6 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_7 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150230016 INV_LVRTMustTrip_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2149181440 INV_LVRTMustTrip_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+  SG_ y_8 : 16|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_9 : 48|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+
+BO_ 2150228480 INV_LVRTMustTrip_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149179904 INV_LVRTMustTrip_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2150173696 INV_LimitMaxAPEnable_CMD: 1 HC
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149125120 INV_LimitMaxAPEnable_RSP: 1 INV
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150173952 INV_LimitMaxAP_CMD: 2 HC
+  SG_ value : 0|16@1+ (0.010000000000000000208,0) [0|100] "%capability" Vector__XXX
+
+BO_ 2149125376 INV_LimitMaxAP_RSP: 2 INV
+  SG_ value : 0|16@1+ (0.010000000000000000208,0) [0|100] "%capability" Vector__XXX
+
+BO_ 2150695424 INV_Load_ActiveEnergyExported: 8 INV
+  SG_ INV_Load_ActiveEnergyExported_L1 : 0|32@1+ (1,0) [0|4294967295] "W-hr" Vector__XXX
+  SG_ INV_Load_ActiveEnergyExported_L2 : 32|32@1+ (1,0) [0|4294967295] "W-hr" Vector__XXX
+
+BO_ 2150695168 INV_Load_ActiveEnergyImported: 8 INV
+  SG_ INV_Load_ActiveEnergyImported_L1 : 0|32@1+ (1,0) [0|4294967295] "W-hr" Vector__XXX
+  SG_ INV_Load_ActiveEnergyImported_L2 : 32|32@1+ (1,0) [0|4294967295] "W-hr" Vector__XXX
+
+BO_ 2150694912 INV_Load_Power: 8 INV
+  SG_ INV_Load_ActivePower_L1 : 0|16@1- (1,0) [-32768|32767] "W" Vector__XXX
+  SG_ INV_Load_ActivePower_L2 : 16|16@1- (1,0) [-32768|32767] "W" Vector__XXX
+  SG_ INV_Load_ReactivePower_L1 : 32|16@1- (1,0) [-32768|32767] "W" Vector__XXX
+  SG_ INV_Load_ReactivePower_L2 : 48|16@1- (1,0) [-32768|32767] "W" Vector__XXX
+
+BO_ 2150695680 INV_Load_TotalActiveEnergy: 8 INV
+  SG_ INV_Load_TotalActiveEnergyExported : 32|32@1+ (1,0) [0|4294967295] "W-hr" Vector__XXX
+  SG_ INV_Load_TotalActiveEnergyImported : 0|32@1+ (1,0) [0|4294967295] "W-hr" Vector__XXX
+
+BO_ 2150176768 INV_PFAbsorbEnable_CMD: 1 HC
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149128192 INV_PFAbsorbEnable_RSP: 1 INV
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150177024 INV_PFAbsorbParams_CMD: 3 HC
+  SG_ displacement : 0|16@1+ (0.0010000000000000000208,0) [0|65.534999999999996589] "" Vector__XXX
+  SG_ excitation : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149128448 INV_PFAbsorbParams_RSP: 3 INV
+  SG_ displacement : 0|16@1+ (0.0010000000000000000208,0) [0|65.534999999999996589] "" Vector__XXX
+  SG_ excitation : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150176256 INV_PFInjectEnable_CMD: 1 HC
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149127680 INV_PFInjectEnable_RSP: 1 INV
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150176512 INV_PFInjectParams_CMD: 3 HC
+  SG_ displacement : 0|16@1+ (0.0010000000000000000208,0) [0|65.534999999999996589] "" Vector__XXX
+  SG_ excitation : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149127936 INV_PFInjectParams_RSP: 3 INV
+  SG_ displacement : 0|16@1+ (0.0010000000000000000208,0) [0|65.534999999999996589] "" Vector__XXX
+  SG_ excitation : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150236672 INV_PermitServiceCmd: 1 HC
+  SG_ permitted : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149188096 INV_PermitServiceRsp: 1 INV
+  SG_ permitted : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2148929536 INV_Power: 4 INV
+  SG_ activePower : 0|16@1- (1,0) [-32768|32767] "W" Vector__XXX
+  SG_ reactivePower : 16|16@1- (1,0) [-32768|32767] "var" Vector__XXX
+
+BO_ 2150760960 INV_PowerMeasured: 4 INV
+  SG_ Power : 0|32@1- (3.0000000000000003936e-07,0) [-644.24509439999997085|644.24509409999996024] "" Vector__XXX
+
+BO_ 2150177792 INV_RampRate_CMD: 4 HC
+  SG_ setGradW : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%setWMax/s" Vector__XXX
+  SG_ setSoftGradW : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%setWMax/s" Vector__XXX
+
+BO_ 2149129216 INV_RampRate_RSP: 4 INV
+  SG_ setGradW : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%setWMax/s" Vector__XXX
+  SG_ setSoftGradW : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%setWMax/s" Vector__XXX
+
+BO_ 2148930304 INV_RapidShutdown: 1 INV
+  SG_ RapidShutdown : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150177280 INV_ReactivePowerEnable_CMD: 1 HC
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149128704 INV_ReactivePowerEnable_RSP: 1 INV
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150177536 INV_ReactivePower_CMD: 3 HC
+  SG_ refType : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ value : 0|16@1- (0.010000000000000000208,0) [-100|100] "%capability" Vector__XXX
+
+BO_ 2149128960 INV_ReactivePower_RSP: 3 INV
+  SG_ refType : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ value : 0|16@1- (0.010000000000000000208,0) [-100|100] "%capability" Vector__XXX
+
+BO_ 2163413248 INV_SetPartNumber: 8 HC
+  SG_ lChar0 : 0|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar1 : 6|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar2 : 12|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar3 : 18|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar4 : 24|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar5 : 30|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar6 : 36|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar7 : 42|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar0 : 48|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar1 : 54|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+
+BO_ 2163412992 INV_SetSerialNumber: 7 Vector__XXX
+  SG_ vendorChar0 : 0|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar1 : 8|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar2 : 16|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ weekAndSerial : 24|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2163473920 INV_SetTestedFlag: 1 HC
+  SG_ INV_TestedFlag : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2148991232 INV_StatusRSP: 3 INV
+  SG_ INV_L1L2InPhase : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ InvACRelay : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ InvState : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2148992256 INV_Temperatures: 8 INV
+  SG_ INV_AmbientTemp_C : 16|8@1+ (1,-60) [-60|195] "Celsius" Vector__XXX
+  SG_ INV_BoardTemp_C : 8|8@1+ (1,-60) [-60|195] "Celsius" Vector__XXX
+  SG_ INV_DieTemp_C : 0|8@1+ (1,-60) [-60|195] "Celsius" Vector__XXX
+  SG_ InvFanDutyCycle1 : 32|16@1+ (0.10000000000000000555,0) [0|100] "%" Vector__XXX
+  SG_ InvFanDutyCycle2 : 48|16@1+ (0.10000000000000000555,0) [0|100] "%" Vector__XXX
+
+BO_ 2150178816 INV_VoltVar_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149130240 INV_VoltVar_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150179072 INV_VoltVar_Metadata_CMD: 2 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+  SG_ yRefType : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149130496 INV_VoltVar_Metadata_RSP: 2 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+  SG_ yRefType : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150179840 INV_VoltVar_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_0 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_1 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2149131264 INV_VoltVar_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_0 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_1 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2150180096 INV_VoltVar_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_2 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_3 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2149131520 INV_VoltVar_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_2 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_3 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2150180352 INV_VoltVar_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_4 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_5 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2149131776 INV_VoltVar_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_4 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_5 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2150180608 INV_VoltVar_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_6 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_7 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2149132032 INV_VoltVar_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_6 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_7 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2150180864 INV_VoltVar_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_8 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_9 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2149132288 INV_VoltVar_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_8 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_9 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2150179328 INV_VoltVar_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149130752 INV_VoltVar_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2150179584 INV_VoltVar_VRef_CMD: 7 HC
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ time_constant : 8|32@1+ (0.010000000000000000208,0) [0|42949672.95000000298] "s" Vector__XXX
+  SG_ v_ref : 40|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%nominal" Vector__XXX
+
+BO_ 2149131008 INV_VoltVar_VRef_RSP: 7 INV
+  SG_ enabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ time_constant : 8|32@1+ (0.010000000000000000208,0) [0|42949672.95000000298] "s" Vector__XXX
+  SG_ v_ref : 40|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%nominal" Vector__XXX
+
+BO_ 2150187008 INV_VoltWatt_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149138432 INV_VoltWatt_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150187264 INV_VoltWatt_Metadata_CMD: 2 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+  SG_ yRefType : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149138688 INV_VoltWatt_Metadata_RSP: 2 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+  SG_ yRefType : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150188032 INV_VoltWatt_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_0 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_1 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2149139456 INV_VoltWatt_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_0 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_1 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2150188288 INV_VoltWatt_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_2 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_3 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2149139712 INV_VoltWatt_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_2 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_3 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2150188544 INV_VoltWatt_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_4 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_5 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2149139968 INV_VoltWatt_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_4 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_5 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2150188800 INV_VoltWatt_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_6 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_7 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2149140224 INV_VoltWatt_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_6 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_7 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2150189056 INV_VoltWatt_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_8 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_9 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2149140480 INV_VoltWatt_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|135] "%VRef" Vector__XXX
+  SG_ y_8 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+  SG_ y_9 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%W capability" Vector__XXX
+
+BO_ 2150187520 INV_VoltWatt_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149138944 INV_VoltWatt_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2150232064 INV_WattVar_CurveStatus_CMD: 2 HC
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149183488 INV_WattVar_CurveStatus_RSP: 2 INV
+  SG_ CurveEnabled : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ CurveUpdateStatus : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150232320 INV_WattVar_Metadata_CMD: 2 HC
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+  SG_ yRefType : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149183744 INV_WattVar_Metadata_RSP: 2 INV
+  SG_ CurveNumPoints : 0|8@1+ (1,0) [0|10] "" Vector__XXX
+  SG_ yRefType : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2150233088 INV_WattVar_Points_0_1_CMD: 8 HC
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ y_0 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_1 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2149184512 INV_WattVar_Points_0_1_RSP: 8 INV
+  SG_ x_0 : 0|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ x_1 : 32|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ y_0 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_1 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2150233344 INV_WattVar_Points_2_3_CMD: 8 HC
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ y_2 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_3 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2149184768 INV_WattVar_Points_2_3_RSP: 8 INV
+  SG_ x_2 : 0|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ x_3 : 32|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ y_2 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_3 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2150233600 INV_WattVar_Points_4_5_CMD: 8 HC
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ y_4 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_5 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2149185024 INV_WattVar_Points_4_5_RSP: 8 INV
+  SG_ x_4 : 0|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ x_5 : 32|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ y_4 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_5 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2150233856 INV_WattVar_Points_6_7_CMD: 8 HC
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ y_6 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_7 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2149185280 INV_WattVar_Points_6_7_RSP: 8 INV
+  SG_ x_6 : 0|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ x_7 : 32|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ y_6 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_7 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2150234112 INV_WattVar_Points_8_9_CMD: 8 HC
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ y_8 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_9 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2149185536 INV_WattVar_Points_8_9_RSP: 8 INV
+  SG_ x_8 : 0|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ x_9 : 32|16@1+ (0.010000000000000000208,0) [0|100] "%W capability" Vector__XXX
+  SG_ y_8 : 16|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+  SG_ y_9 : 48|16@1- (0.010000000000000000208,0) [-100|100] "%var capability" Vector__XXX
+
+BO_ 2150232576 INV_WattVar_Timings_CMD: 8 HC
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149184000 INV_WattVar_Timings_RSP: 8 INV
+  SG_ OpenLoopTms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampDecTms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampIncTms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "%capability/s" Vector__XXX
+  SG_ RampPT1 : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "s" Vector__XXX
+
+BO_ 2149605120 IPC_AlertMatrixFault: 2 IPC
+  SG_ IPC_ADC_BoundaryFlag : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ IPC_CAN_ErrorCounter : 3|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ IPC_DC_NEG_OverVoltage : 7|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ IPC_DC_NEG_UnderVoltage : 6|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ IPC_DC_POS_OverVoltage : 5|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ IPC_DC_POS_UnderVoltage : 4|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ IPC_ERU_Hardware : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ IPC_PhaseA_OverVoltage : 8|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ IPC_PhaseB_OverVoltage : 9|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ IPC_Temperature : 2|1@1+ (1,0) [0|1] "A" Vector__XXX
+
+BO_ 2149605376 IPC_AlertMatrixWarning: 1 IPC
+  SG_ IPC_CAN_ErrorCounter : 1|1@1+ (1,0) [0|1] "" Vector__XXX
+  SG_ IPC_Temperature : 0|1@1+ (1,0) [0|1] "" Vector__XXX
+
+BO_ 2149590016 IPC_DcDroopLimits: 6 IPC
+  SG_ IPC_DcDroop_Max : 16|16@1- (0.5,0) [-16384|16383.5] "" Vector__XXX
+  SG_ IPC_DcDroop_Min : 32|16@1- (0.5,0) [-16384|16383.5] "" Vector__XXX
+  SG_ IPC_Dc_Bus_Voltage : 0|16@1- (0.5,0) [-16384|16383.5] "" Vector__XXX
+
+BO_ 2149603328 IPC_DcStatus: 8 IPC
+  SG_ IPC_DcNeg_Current_A : 32|16@1+ (0.0050000000000000001041,0) [0|327.67500000000001137] "" Vector__XXX
+  SG_ IPC_DcNeg_Voltage_V : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "" Vector__XXX
+  SG_ IPC_DcPos_Current_A : 48|16@1+ (0.0050000000000000001041,0) [0|327.67500000000001137] "" Vector__XXX
+  SG_ IPC_DcPos_Voltage_V : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "" Vector__XXX
+
+BO_ 2149604352 IPC_Debug_Down: 8 IPC
+  SG_ command : 0|16@1+ (1,0) [0|65535] "" Vector__XXX
+  SG_ selector : 16|16@1+ (1,0) [0|65535] "" Vector__XXX
+  SG_ value : 32|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2149604864 IPC_Debug_Up_Data: 8 IPC
+  SG_ data : 0|64@1+ (1,0) [0|18446744073709551616] "" Vector__XXX
+
+BO_ 2149604608 IPC_Debug_Up_Text: 8 IPC
+  SG_ data : 0|64@1+ (1,0) [0|18446744073709551616] "" Vector__XXX
+
+BO_ 2150170368 IPC_FWUpgradeRx: 8 IPC
+
+BO_ 2156006656 IPC_FWUpgradeTx: 8 HC
+
+BO_ 2150109952 IPC_FWVersion: 7 IPC
+  SG_ app_ver_major : 40|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ app_ver_minor : 32|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ app_ver_patch : 24|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_major : 16|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_minor : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ boot_ver_patch : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ hardware_id : 48|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149604096 IPC_Frequency: 2 IPC
+  SG_ IPC_Frequency_Hz : 0|16@1+ (0.0020000000000000000416,0) [0|131.06999999999999318] "" Vector__XXX
+
+BO_ 2150109696 IPC_GetGitHash: 8 IPC
+  SG_ GitHash : 0|64@1+ (1,0) [0|18446744073709551616] "" Vector__XXX
+
+BO_ 2150109440 IPC_GetPartNumber: 8 IPC
+  SG_ lChar0 : 0|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar1 : 6|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar2 : 12|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar3 : 18|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar4 : 24|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar5 : 30|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar6 : 36|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar7 : 42|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar0 : 48|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar1 : 54|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+
+BO_ 2150109184 IPC_GetSerialNumber: 7 IPC
+  SG_ vendorChar0 : 0|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar1 : 8|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar2 : 16|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ weekAndSerial : 24|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2150110208 IPC_GetTestedFlag: 1 IPC
+  SG_ IPC_TestedFlag : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149605632 IPC_Interrupt_Timing: 6 IPC
+  SG_ interrupt100Hz : 16|8@1+ (0.5,0) [0|127.5] "" Vector__XXX
+  SG_ interrupt10Hz : 8|8@1+ (0.5,0) [0|127.5] "" Vector__XXX
+  SG_ interrupt1Hz : 0|8@1+ (0.5,0) [0|127.5] "" Vector__XXX
+  SG_ interrupt1kHz : 24|8@1+ (0.5,0) [0|127.5] "" Vector__XXX
+  SG_ interruptFastLoop : 32|8@1+ (0.5,0) [0|127.5] "" Vector__XXX
+  SG_ interruptSlowLoop : 40|8@1+ (0.5,0) [0|127.5] "" Vector__XXX
+
+BO_ 2149602816 IPC_L2NStatus: 8 IPC
+  SG_ IPC_PhA_Current_Arms : 32|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "" Vector__XXX
+  SG_ IPC_PhA_Voltage_Vrms : 0|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "" Vector__XXX
+  SG_ IPC_PhB_Current_Arms : 48|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "" Vector__XXX
+  SG_ IPC_PhB_Voltage_Vrms : 16|16@1+ (0.010000000000000000208,0) [0|655.35000000000002274] "" Vector__XXX
+
+BO_ 2149603072 IPC_Power: 8 IPC
+  SG_ IPC_PhA_ReactivePower_VAR : 32|16@1- (1,0) [-32768|32767] "" Vector__XXX
+  SG_ IPC_PhA_RealPower_W : 0|16@1- (1,0) [-32768|32767] "" Vector__XXX
+  SG_ IPC_PhB_ReactivePower_VAR : 48|16@1- (1,0) [-32768|32767] "" Vector__XXX
+  SG_ IPC_PhB_RealPower_W : 16|16@1- (1,0) [-32768|32767] "" Vector__XXX
+
+BO_ 2149603840 IPC_PowerTarget: 4 IPC
+  SG_ IPC_ReactivePowerTarget_VAR : 16|16@1- (1,0) [-32768|32767] "" Vector__XXX
+  SG_ IPC_RealPowerTarget_W : 0|16@1- (1,0) [-32768|32767] "" Vector__XXX
+
+BO_ 2149646336 IPC_ResetCommand: 0 IPC
+
+BO_ 2163343872 IPC_SetPartNumber: 8 Vector__XXX
+  SG_ lChar0 : 0|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar1 : 6|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar2 : 12|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar3 : 18|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar4 : 24|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar5 : 30|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar6 : 36|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ lChar7 : 42|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar0 : 48|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+  SG_ rChar1 : 54|6@1+ (1,0) [0|63] "base64 alphabet" Vector__XXX
+
+BO_ 2163343616 IPC_SetSerialNumber: 7 Vector__XXX
+  SG_ vendorChar0 : 0|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar1 : 8|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ vendorChar2 : 16|8@1+ (1,0) [0|255] "ascii" Vector__XXX
+  SG_ weekAndSerial : 24|32@1+ (1,0) [0|4294967295] "" Vector__XXX
+
+BO_ 2163408384 IPC_SetTestedFlag: 1 Vector__XXX
+  SG_ IPC_TestedFlag : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149602560 IPC_Status: 2 IPC
+  SG_ IPC_Relay_Status : 8|8@1+ (1,0) [0|255] "" Vector__XXX
+  SG_ IPC_State : 0|8@1+ (1,0) [0|255] "" Vector__XXX
+
+BO_ 2149603584 IPC_Temperatures: 6 IPC
+  SG_ dieTemp : 32|16@1- (0.10000000000000000555,0) [-3276.8000000000001819|3276.7000000000002728] "" Vector__XXX
+  SG_ tempSense1 : 0|16@1- (0.10000000000000000555,0) [-3276.8000000000001819|3276.7000000000002728] "" Vector__XXX
+  SG_ tempSense2 : 16|16@1- (0.10000000000000000555,0) [-3276.8000000000001819|3276.7000000000002728] "" Vector__XXX
+
+CM_ BO_ 2150174464 "This message encodes the active power setpoint (CMD) or its acknowledgement (RSP)";
+CM_ BO_ 2149125888 "This message encodes the active power setpoint (CMD) or its acknowledgement (RSP)";
+CM_ BO_ 2148929536 "This message encodes the sensed telemetry for power values";
+CM_ BO_ 2150177536 "This message encodes the reactive power setpoint (CMD) or its acknowledgement (RSP)";
+CM_ BO_ 2149128960 "This message encodes the reactive power setpoint (CMD) or its acknowledgement (RSP)";
+BA_DEF_ "DBName" STRING;
+BA_DEF_ "BusType" STRING;
+BA_DEF_ BO_ "VFrameFormat" ENUM "StandardCAN","ExtendedCAN","reserved","J1939PG","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","reserved","StandardCAN_FD","ExtendedCAN_FD";
+BA_DEF_ BO_ "GenMsgSendType" ENUM "Cyclic","Event","CyclicIfActive","SpontanWithDelay","CyclicAndSpontan","CyclicAndSpontanWithDelay";
+BA_DEF_ BO_ "GenMsgCycleTime" INT 0 0;
+BA_DEF_ BO_ "GenMsgDelayTime" INT 0 0;
+BA_DEF_ SG_ "GenSigStartValue" FLOAT 0 0;
+BA_DEF_DEF_ "DBName" "Cluster";
+BA_DEF_DEF_ "BusType" "CAN";
+BA_DEF_DEF_ "VFrameFormat" "StandardCAN";
+BA_DEF_DEF_ "GenMsgSendType" "Cyclic";
+BA_DEF_DEF_ "GenMsgCycleTime" 0;
+BA_DEF_DEF_ "GenMsgDelayTime" 0;
+BA_DEF_DEF_ "GenSigStartValue" 0;
+BA_ "VFrameFormat" BO_ 2151681792 1;
+BA_ "GenMsgSendType" BO_ 2151681792 1;
+BA_ "VFrameFormat" BO_ 2353004544 1;
+BA_ "GenMsgSendType" BO_ 2353004544 1;
+BA_ "VFrameFormat" BO_ 2151682048 1;
+BA_ "GenMsgSendType" BO_ 2151682048 1;
+BA_ "VFrameFormat" BO_ 2151684096 1;
+BA_ "GenMsgSendType" BO_ 2151684096 1;
+BA_ "VFrameFormat" BO_ 2151678208 1;
+BA_ "GenMsgSendType" BO_ 2151678208 1;
+BA_ "VFrameFormat" BO_ 2151681536 1;
+BA_ "GenMsgSendType" BO_ 2151681536 1;
+BA_ "VFrameFormat" BO_ 2151679488 1;
+BA_ "GenMsgSendType" BO_ 2151679488 1;
+BA_ "VFrameFormat" BO_ 2151694336 1;
+BA_ "GenMsgSendType" BO_ 2151694336 1;
+BA_ "VFrameFormat" BO_ 2151694848 1;
+BA_ "GenMsgSendType" BO_ 2151694848 1;
+BA_ "VFrameFormat" BO_ 2151680000 1;
+BA_ "GenMsgSendType" BO_ 2151680000 1;
+BA_ "VFrameFormat" BO_ 2150630656 1;
+BA_ "GenMsgSendType" BO_ 2150630656 1;
+BA_ "VFrameFormat" BO_ 2151678464 1;
+BA_ "GenMsgSendType" BO_ 2151678464 1;
+BA_ "VFrameFormat" BO_ 2151679744 1;
+BA_ "GenMsgSendType" BO_ 2151679744 1;
+BA_ "VFrameFormat" BO_ 2151695104 1;
+BA_ "GenMsgSendType" BO_ 2151695104 1;
+BA_ "VFrameFormat" BO_ 2163475200 1;
+BA_ "GenMsgSendType" BO_ 2163475200 1;
+BA_ "VFrameFormat" BO_ 2163475456 1;
+BA_ "GenMsgSendType" BO_ 2163475456 1;
+BA_ "VFrameFormat" BO_ 2163475712 1;
+BA_ "GenMsgSendType" BO_ 2163475712 1;
+BA_ "VFrameFormat" BO_ 2163475968 1;
+BA_ "GenMsgSendType" BO_ 2163475968 1;
+BA_ "VFrameFormat" BO_ 2151694592 1;
+BA_ "GenMsgSendType" BO_ 2151694592 1;
+BA_ "VFrameFormat" BO_ 2353070080 1;
+BA_ "GenMsgSendType" BO_ 2353070080 1;
+BA_ "VFrameFormat" BO_ 2353135616 1;
+BA_ "GenMsgSendType" BO_ 2353135616 1;
+BA_ "VFrameFormat" BO_ 2353201152 1;
+BA_ "GenMsgSendType" BO_ 2353201152 1;
+BA_ "VFrameFormat" BO_ 2353266688 1;
+BA_ "GenMsgSendType" BO_ 2353266688 1;
+BA_ "VFrameFormat" BO_ 2151684352 1;
+BA_ "GenMsgSendType" BO_ 2151684352 1;
+BA_ "VFrameFormat" BO_ 2152267520 1;
+BA_ "GenMsgSendType" BO_ 2152267520 1;
+BA_ "VFrameFormat" BO_ 2156199680 1;
+BA_ "GenMsgSendType" BO_ 2156199680 1;
+BA_ "VFrameFormat" BO_ 2152207104 1;
+BA_ "GenMsgSendType" BO_ 2152207104 1;
+BA_ "VFrameFormat" BO_ 2151688192 1;
+BA_ "GenMsgSendType" BO_ 2151688192 1;
+BA_ "VFrameFormat" BO_ 2151687168 1;
+BA_ "GenMsgSendType" BO_ 2151687168 1;
+BA_ "VFrameFormat" BO_ 2152206848 1;
+BA_ "GenMsgSendType" BO_ 2152206848 1;
+BA_ "VFrameFormat" BO_ 2151743744 1;
+BA_ "GenMsgSendType" BO_ 2151743744 1;
+BA_ "VFrameFormat" BO_ 2152206336 1;
+BA_ "GenMsgSendType" BO_ 2152206336 1;
+BA_ "VFrameFormat" BO_ 2152207360 1;
+BA_ "GenMsgSendType" BO_ 2152207360 1;
+BA_ "VFrameFormat" BO_ 2151683072 1;
+BA_ "GenMsgSendType" BO_ 2151683072 1;
+BA_ "VFrameFormat" BO_ 2151683328 1;
+BA_ "GenMsgSendType" BO_ 2151683328 1;
+BA_ "VFrameFormat" BO_ 2151683584 1;
+BA_ "GenMsgSendType" BO_ 2151683584 1;
+BA_ "VFrameFormat" BO_ 2151682304 1;
+BA_ "GenMsgSendType" BO_ 2151682304 1;
+BA_ "VFrameFormat" BO_ 2151682560 1;
+BA_ "GenMsgSendType" BO_ 2151682560 1;
+BA_ "VFrameFormat" BO_ 2151682816 1;
+BA_ "GenMsgSendType" BO_ 2151682816 1;
+BA_ "VFrameFormat" BO_ 2151681280 1;
+BA_ "GenMsgSendType" BO_ 2151681280 1;
+BA_ "VFrameFormat" BO_ 2151678720 1;
+BA_ "GenMsgSendType" BO_ 2151678720 1;
+BA_ "VFrameFormat" BO_ 2151680256 1;
+BA_ "GenMsgSendType" BO_ 2151680256 1;
+BA_ "VFrameFormat" BO_ 2151678976 1;
+BA_ "GenMsgSendType" BO_ 2151678976 1;
+BA_ "VFrameFormat" BO_ 2151680512 1;
+BA_ "GenMsgSendType" BO_ 2151680512 1;
+BA_ "VFrameFormat" BO_ 2151679232 1;
+BA_ "GenMsgSendType" BO_ 2151679232 1;
+BA_ "VFrameFormat" BO_ 2151680768 1;
+BA_ "GenMsgSendType" BO_ 2151680768 1;
+BA_ "VFrameFormat" BO_ 2151687680 1;
+BA_ "GenMsgSendType" BO_ 2151687680 1;
+BA_ "VFrameFormat" BO_ 2151687936 1;
+BA_ "GenMsgSendType" BO_ 2151687936 1;
+BA_ "VFrameFormat" BO_ 2151686400 1;
+BA_ "GenMsgSendType" BO_ 2151686400 1;
+BA_ "VFrameFormat" BO_ 2150630912 1;
+BA_ "GenMsgSendType" BO_ 2150630912 1;
+BA_ "VFrameFormat" BO_ 2163474944 1;
+BA_ "GenMsgSendType" BO_ 2163474944 1;
+BA_ "VFrameFormat" BO_ 2151686656 1;
+BA_ "GenMsgSendType" BO_ 2151686656 1;
+BA_ "VFrameFormat" BO_ 2163474688 1;
+BA_ "GenMsgSendType" BO_ 2163474688 1;
+BA_ "VFrameFormat" BO_ 2163539456 1;
+BA_ "GenMsgSendType" BO_ 2163539456 1;
+BA_ "VFrameFormat" BO_ 2151810816 1;
+BA_ "GenMsgSendType" BO_ 2151810816 1;
+BA_ "VFrameFormat" BO_ 2151686144 1;
+BA_ "GenMsgSendType" BO_ 2151686144 1;
+BA_ "VFrameFormat" BO_ 2148536320 1;
+BA_ "GenMsgSendType" BO_ 2148536320 1;
+BA_ "VFrameFormat" BO_ 2151681024 1;
+BA_ "GenMsgSendType" BO_ 2151681024 1;
+BA_ "VFrameFormat" BO_ 2151683840 1;
+BA_ "GenMsgSendType" BO_ 2151683840 1;
+BA_ "VFrameFormat" BO_ 2151687424 1;
+BA_ "GenMsgSendType" BO_ 2151687424 1;
+BA_ "VFrameFormat" BO_ 2151686912 1;
+BA_ "GenMsgSendType" BO_ 2151686912 1;
+BA_ "VFrameFormat" BO_ 2151688448 1;
+BA_ "GenMsgSendType" BO_ 2151688448 1;
+BA_ "VFrameFormat" BO_ 2153775616 1;
+BA_ "GenMsgSendType" BO_ 2153775616 1;
+BA_ "VFrameFormat" BO_ 2153775360 1;
+BA_ "GenMsgSendType" BO_ 2153775360 1;
+BA_ "VFrameFormat" BO_ 2153776896 1;
+BA_ "GenMsgSendType" BO_ 2153776896 1;
+BA_ "VFrameFormat" BO_ 2153776384 1;
+BA_ "GenMsgSendType" BO_ 2153776384 1;
+BA_ "VFrameFormat" BO_ 2154364672 1;
+BA_ "GenMsgSendType" BO_ 2154364672 1;
+BA_ "VFrameFormat" BO_ 2156330752 1;
+BA_ "GenMsgSendType" BO_ 2156330752 1;
+BA_ "VFrameFormat" BO_ 2154304256 1;
+BA_ "GenMsgSendType" BO_ 2154304256 1;
+BA_ "VFrameFormat" BO_ 2154304000 1;
+BA_ "GenMsgSendType" BO_ 2154304000 1;
+BA_ "VFrameFormat" BO_ 2154303744 1;
+BA_ "GenMsgSendType" BO_ 2154303744 1;
+BA_ "VFrameFormat" BO_ 2154303488 1;
+BA_ "GenMsgSendType" BO_ 2154303488 1;
+BA_ "VFrameFormat" BO_ 2154304512 1;
+BA_ "GenMsgSendType" BO_ 2154304512 1;
+BA_ "VFrameFormat" BO_ 2153776640 1;
+BA_ "GenMsgSendType" BO_ 2153776640 1;
+BA_ "VFrameFormat" BO_ 2163606016 1;
+BA_ "GenMsgSendType" BO_ 2163606016 1;
+BA_ "VFrameFormat" BO_ 2163605760 1;
+BA_ "GenMsgSendType" BO_ 2163605760 1;
+BA_ "VFrameFormat" BO_ 2163670528 1;
+BA_ "GenMsgSendType" BO_ 2163670528 1;
+BA_ "VFrameFormat" BO_ 2153255936 1;
+BA_ "GenMsgSendType" BO_ 2153255936 1;
+BA_ "VFrameFormat" BO_ 2156204032 1;
+BA_ "GenMsgSendType" BO_ 2156204032 1;
+BA_ "VFrameFormat" BO_ 2153255680 1;
+BA_ "GenMsgSendType" BO_ 2153255680 1;
+BA_ "VFrameFormat" BO_ 2153255424 1;
+BA_ "GenMsgSendType" BO_ 2153255424 1;
+BA_ "VFrameFormat" BO_ 2153255168 1;
+BA_ "GenMsgSendType" BO_ 2153255168 1;
+BA_ "VFrameFormat" BO_ 2153254912 1;
+BA_ "GenMsgSendType" BO_ 2153254912 1;
+BA_ "VFrameFormat" BO_ 2153256192 1;
+BA_ "GenMsgSendType" BO_ 2153256192 1;
+BA_ "VFrameFormat" BO_ 2153252608 1;
+BA_ "GenMsgSendType" BO_ 2153252608 1;
+BA_ "VFrameFormat" BO_ 2153252096 1;
+BA_ "GenMsgSendType" BO_ 2153252096 1;
+BA_ "VFrameFormat" BO_ 2153251584 1;
+BA_ "GenMsgSendType" BO_ 2153251584 1;
+BA_ "VFrameFormat" BO_ 2153253120 1;
+BA_ "GenMsgSendType" BO_ 2153253120 1;
+BA_ "VFrameFormat" BO_ 2152730880 1;
+BA_ "GenMsgSendType" BO_ 2152730880 1;
+BA_ "VFrameFormat" BO_ 2153252352 1;
+BA_ "GenMsgSendType" BO_ 2153252352 1;
+BA_ "VFrameFormat" BO_ 2153251840 1;
+BA_ "GenMsgSendType" BO_ 2153251840 1;
+BA_ "VFrameFormat" BO_ 2153251328 1;
+BA_ "GenMsgSendType" BO_ 2153251328 1;
+BA_ "VFrameFormat" BO_ 2153252864 1;
+BA_ "GenMsgSendType" BO_ 2153252864 1;
+BA_ "VFrameFormat" BO_ 2152730624 1;
+BA_ "GenMsgSendType" BO_ 2152730624 1;
+BA_ "VFrameFormat" BO_ 2163540736 1;
+BA_ "GenMsgSendType" BO_ 2163540736 1;
+BA_ "VFrameFormat" BO_ 2156265216 1;
+BA_ "GenMsgSendType" BO_ 2156265216 1;
+BA_ "VFrameFormat" BO_ 2163540480 1;
+BA_ "GenMsgSendType" BO_ 2163540480 1;
+BA_ "VFrameFormat" BO_ 2163540224 1;
+BA_ "GenMsgSendType" BO_ 2163540224 1;
+BA_ "VFrameFormat" BO_ 2163604992 1;
+BA_ "GenMsgSendType" BO_ 2163604992 1;
+BA_ "VFrameFormat" BO_ 2153251072 1;
+BA_ "GenMsgSendType" BO_ 2153251072 1;
+BA_ "VFrameFormat" BO_ 2163601408 1;
+BA_ "GenMsgSendType" BO_ 2163601408 1;
+BA_ "VFrameFormat" BO_ 2156003584 1;
+BA_ "GenMsgSendType" BO_ 2156003584 1;
+BA_ "VFrameFormat" BO_ 2155872512 1;
+BA_ "GenMsgSendType" BO_ 2155872512 1;
+BA_ "VFrameFormat" BO_ 2150695936 1;
+BA_ "GenMsgSendType" BO_ 2150695936 1;
+BA_ "VFrameFormat" BO_ 2150174208 1;
+BA_ "GenMsgSendType" BO_ 2150174208 1;
+BA_ "VFrameFormat" BO_ 2149125632 1;
+BA_ "GenMsgSendType" BO_ 2149125632 1;
+BA_ "VFrameFormat" BO_ 2150174464 1;
+BA_ "GenMsgSendType" BO_ 2150174464 1;
+BA_ "VFrameFormat" BO_ 2149125888 1;
+BA_ "GenMsgSendType" BO_ 2149125888 1;
+BA_ "VFrameFormat" BO_ 2148930048 1;
+BA_ "GenMsgSendType" BO_ 2148930048 1;
+BA_ "VFrameFormat" BO_ 2151153920 1;
+BA_ "GenMsgSendType" BO_ 2151153920 1;
+BA_ "VFrameFormat" BO_ 2148925696 1;
+BA_ "GenMsgSendType" BO_ 2148925696 1;
+BA_ "VFrameFormat" BO_ 2148926464 1;
+BA_ "GenMsgSendType" BO_ 2148926464 1;
+BA_ "VFrameFormat" BO_ 2150236416 1;
+BA_ "GenMsgSendType" BO_ 2150236416 1;
+BA_ "VFrameFormat" BO_ 2149187840 1;
+BA_ "GenMsgSendType" BO_ 2149187840 1;
+BA_ "VFrameFormat" BO_ 2150761216 1;
+BA_ "GenMsgSendType" BO_ 2150761216 1;
+BA_ "VFrameFormat" BO_ 2148992000 1;
+BA_ "GenMsgSendType" BO_ 2148992000 1;
+BA_ "VFrameFormat" BO_ 2151153664 1;
+BA_ "GenMsgSendType" BO_ 2151153664 1;
+BA_ "VFrameFormat" BO_ 2150760704 1;
+BA_ "GenMsgSendType" BO_ 2150760704 1;
+BA_ "VFrameFormat" BO_ 2150174976 1;
+BA_ "GenMsgSendType" BO_ 2150174976 1;
+BA_ "VFrameFormat" BO_ 2149126400 1;
+BA_ "GenMsgSendType" BO_ 2149126400 1;
+BA_ "VFrameFormat" BO_ 2150175232 1;
+BA_ "GenMsgSendType" BO_ 2150175232 1;
+BA_ "VFrameFormat" BO_ 2149126656 1;
+BA_ "GenMsgSendType" BO_ 2149126656 1;
+BA_ "VFrameFormat" BO_ 2150174720 1;
+BA_ "GenMsgSendType" BO_ 2150174720 1;
+BA_ "VFrameFormat" BO_ 2149126144 1;
+BA_ "GenMsgSendType" BO_ 2149126144 1;
+BA_ "VFrameFormat" BO_ 2150760192 1;
+BA_ "GenMsgSendType" BO_ 2150760192 1;
+BA_ "VFrameFormat" BO_ 2149581056 1;
+BA_ "GenMsgSendType" BO_ 2149581056 1;
+BA_ "VFrameFormat" BO_ 2150699776 1;
+BA_ "GenMsgSendType" BO_ 2150699776 1;
+BA_ "VFrameFormat" BO_ 2150176000 1;
+BA_ "GenMsgSendType" BO_ 2150176000 1;
+BA_ "VFrameFormat" BO_ 2149127424 1;
+BA_ "GenMsgSendType" BO_ 2149127424 1;
+BA_ "VFrameFormat" BO_ 2150175744 1;
+BA_ "GenMsgSendType" BO_ 2150175744 1;
+BA_ "VFrameFormat" BO_ 2149127168 1;
+BA_ "GenMsgSendType" BO_ 2149127168 1;
+BA_ "VFrameFormat" BO_ 2150175488 1;
+BA_ "GenMsgSendType" BO_ 2150175488 1;
+BA_ "VFrameFormat" BO_ 2149126912 1;
+BA_ "GenMsgSendType" BO_ 2149126912 1;
+BA_ "VFrameFormat" BO_ 2150182912 1;
+BA_ "GenMsgSendType" BO_ 2150182912 1;
+BA_ "VFrameFormat" BO_ 2149134336 1;
+BA_ "GenMsgSendType" BO_ 2149134336 1;
+BA_ "VFrameFormat" BO_ 2150183168 1;
+BA_ "GenMsgSendType" BO_ 2150183168 1;
+BA_ "VFrameFormat" BO_ 2149134592 1;
+BA_ "GenMsgSendType" BO_ 2149134592 1;
+BA_ "VFrameFormat" BO_ 2150183936 1;
+BA_ "GenMsgSendType" BO_ 2150183936 1;
+BA_ "VFrameFormat" BO_ 2149135360 1;
+BA_ "GenMsgSendType" BO_ 2149135360 1;
+BA_ "VFrameFormat" BO_ 2150184192 1;
+BA_ "GenMsgSendType" BO_ 2150184192 1;
+BA_ "VFrameFormat" BO_ 2149135616 1;
+BA_ "GenMsgSendType" BO_ 2149135616 1;
+BA_ "VFrameFormat" BO_ 2150184448 1;
+BA_ "GenMsgSendType" BO_ 2150184448 1;
+BA_ "VFrameFormat" BO_ 2149135872 1;
+BA_ "GenMsgSendType" BO_ 2149135872 1;
+BA_ "VFrameFormat" BO_ 2150184704 1;
+BA_ "GenMsgSendType" BO_ 2150184704 1;
+BA_ "VFrameFormat" BO_ 2149136128 1;
+BA_ "GenMsgSendType" BO_ 2149136128 1;
+BA_ "VFrameFormat" BO_ 2150184960 1;
+BA_ "GenMsgSendType" BO_ 2150184960 1;
+BA_ "VFrameFormat" BO_ 2149136384 1;
+BA_ "GenMsgSendType" BO_ 2149136384 1;
+BA_ "VFrameFormat" BO_ 2150183424 1;
+BA_ "GenMsgSendType" BO_ 2150183424 1;
+BA_ "VFrameFormat" BO_ 2149134848 1;
+BA_ "GenMsgSendType" BO_ 2149134848 1;
+BA_ "VFrameFormat" BO_ 2148929792 1;
+BA_ "GenMsgSendType" BO_ 2148929792 1;
+BA_ "VFrameFormat" BO_ 2150699520 1;
+BA_ "GenMsgSendType" BO_ 2150699520 1;
+BA_ "VFrameFormat" BO_ 2150699264 1;
+BA_ "GenMsgSendType" BO_ 2150699264 1;
+BA_ "VFrameFormat" BO_ 2150699008 1;
+BA_ "GenMsgSendType" BO_ 2150699008 1;
+BA_ "VFrameFormat" BO_ 2150700032 1;
+BA_ "GenMsgSendType" BO_ 2150700032 1;
+BA_ "VFrameFormat" BO_ 2150191104 1;
+BA_ "GenMsgSendType" BO_ 2150191104 1;
+BA_ "VFrameFormat" BO_ 2149142528 1;
+BA_ "GenMsgSendType" BO_ 2149142528 1;
+BA_ "VFrameFormat" BO_ 2150191360 1;
+BA_ "GenMsgSendType" BO_ 2150191360 1;
+BA_ "VFrameFormat" BO_ 2149142784 1;
+BA_ "GenMsgSendType" BO_ 2149142784 1;
+BA_ "VFrameFormat" BO_ 2150192128 1;
+BA_ "GenMsgSendType" BO_ 2150192128 1;
+BA_ "VFrameFormat" BO_ 2149143552 1;
+BA_ "GenMsgSendType" BO_ 2149143552 1;
+BA_ "VFrameFormat" BO_ 2150192384 1;
+BA_ "GenMsgSendType" BO_ 2150192384 1;
+BA_ "VFrameFormat" BO_ 2149143808 1;
+BA_ "GenMsgSendType" BO_ 2149143808 1;
+BA_ "VFrameFormat" BO_ 2150192640 1;
+BA_ "GenMsgSendType" BO_ 2150192640 1;
+BA_ "VFrameFormat" BO_ 2149144064 1;
+BA_ "GenMsgSendType" BO_ 2149144064 1;
+BA_ "VFrameFormat" BO_ 2150192896 1;
+BA_ "GenMsgSendType" BO_ 2150192896 1;
+BA_ "VFrameFormat" BO_ 2149144320 1;
+BA_ "GenMsgSendType" BO_ 2149144320 1;
+BA_ "VFrameFormat" BO_ 2150193152 1;
+BA_ "GenMsgSendType" BO_ 2150193152 1;
+BA_ "VFrameFormat" BO_ 2149144576 1;
+BA_ "GenMsgSendType" BO_ 2149144576 1;
+BA_ "VFrameFormat" BO_ 2150191616 1;
+BA_ "GenMsgSendType" BO_ 2150191616 1;
+BA_ "VFrameFormat" BO_ 2149143040 1;
+BA_ "GenMsgSendType" BO_ 2149143040 1;
+BA_ "VFrameFormat" BO_ 2150195200 1;
+BA_ "GenMsgSendType" BO_ 2150195200 1;
+BA_ "VFrameFormat" BO_ 2149146624 1;
+BA_ "GenMsgSendType" BO_ 2149146624 1;
+BA_ "VFrameFormat" BO_ 2150195456 1;
+BA_ "GenMsgSendType" BO_ 2150195456 1;
+BA_ "VFrameFormat" BO_ 2149146880 1;
+BA_ "GenMsgSendType" BO_ 2149146880 1;
+BA_ "VFrameFormat" BO_ 2150196224 1;
+BA_ "GenMsgSendType" BO_ 2150196224 1;
+BA_ "VFrameFormat" BO_ 2149147648 1;
+BA_ "GenMsgSendType" BO_ 2149147648 1;
+BA_ "VFrameFormat" BO_ 2150196480 1;
+BA_ "GenMsgSendType" BO_ 2150196480 1;
+BA_ "VFrameFormat" BO_ 2149147904 1;
+BA_ "GenMsgSendType" BO_ 2149147904 1;
+BA_ "VFrameFormat" BO_ 2150196736 1;
+BA_ "GenMsgSendType" BO_ 2150196736 1;
+BA_ "VFrameFormat" BO_ 2149148160 1;
+BA_ "GenMsgSendType" BO_ 2149148160 1;
+BA_ "VFrameFormat" BO_ 2150196992 1;
+BA_ "GenMsgSendType" BO_ 2150196992 1;
+BA_ "VFrameFormat" BO_ 2149148416 1;
+BA_ "GenMsgSendType" BO_ 2149148416 1;
+BA_ "VFrameFormat" BO_ 2150197248 1;
+BA_ "GenMsgSendType" BO_ 2150197248 1;
+BA_ "VFrameFormat" BO_ 2149148672 1;
+BA_ "GenMsgSendType" BO_ 2149148672 1;
+BA_ "VFrameFormat" BO_ 2150195712 1;
+BA_ "GenMsgSendType" BO_ 2150195712 1;
+BA_ "VFrameFormat" BO_ 2149147136 1;
+BA_ "GenMsgSendType" BO_ 2149147136 1;
+BA_ "VFrameFormat" BO_ 2150211584 1;
+BA_ "GenMsgSendType" BO_ 2150211584 1;
+BA_ "VFrameFormat" BO_ 2149163008 1;
+BA_ "GenMsgSendType" BO_ 2149163008 1;
+BA_ "VFrameFormat" BO_ 2150211840 1;
+BA_ "GenMsgSendType" BO_ 2150211840 1;
+BA_ "VFrameFormat" BO_ 2149163264 1;
+BA_ "GenMsgSendType" BO_ 2149163264 1;
+BA_ "VFrameFormat" BO_ 2150212608 1;
+BA_ "GenMsgSendType" BO_ 2150212608 1;
+BA_ "VFrameFormat" BO_ 2149164032 1;
+BA_ "GenMsgSendType" BO_ 2149164032 1;
+BA_ "VFrameFormat" BO_ 2150212864 1;
+BA_ "GenMsgSendType" BO_ 2150212864 1;
+BA_ "VFrameFormat" BO_ 2149164288 1;
+BA_ "GenMsgSendType" BO_ 2149164288 1;
+BA_ "VFrameFormat" BO_ 2150213120 1;
+BA_ "GenMsgSendType" BO_ 2150213120 1;
+BA_ "VFrameFormat" BO_ 2149164544 1;
+BA_ "GenMsgSendType" BO_ 2149164544 1;
+BA_ "VFrameFormat" BO_ 2150213376 1;
+BA_ "GenMsgSendType" BO_ 2150213376 1;
+BA_ "VFrameFormat" BO_ 2149164800 1;
+BA_ "GenMsgSendType" BO_ 2149164800 1;
+BA_ "VFrameFormat" BO_ 2150213632 1;
+BA_ "GenMsgSendType" BO_ 2150213632 1;
+BA_ "VFrameFormat" BO_ 2149165056 1;
+BA_ "GenMsgSendType" BO_ 2149165056 1;
+BA_ "VFrameFormat" BO_ 2150212096 1;
+BA_ "GenMsgSendType" BO_ 2150212096 1;
+BA_ "VFrameFormat" BO_ 2149163520 1;
+BA_ "GenMsgSendType" BO_ 2149163520 1;
+BA_ "VFrameFormat" BO_ 2150207488 1;
+BA_ "GenMsgSendType" BO_ 2150207488 1;
+BA_ "VFrameFormat" BO_ 2149158912 1;
+BA_ "GenMsgSendType" BO_ 2149158912 1;
+BA_ "VFrameFormat" BO_ 2150207744 1;
+BA_ "GenMsgSendType" BO_ 2150207744 1;
+BA_ "VFrameFormat" BO_ 2149159168 1;
+BA_ "GenMsgSendType" BO_ 2149159168 1;
+BA_ "VFrameFormat" BO_ 2150208512 1;
+BA_ "GenMsgSendType" BO_ 2150208512 1;
+BA_ "VFrameFormat" BO_ 2149159936 1;
+BA_ "GenMsgSendType" BO_ 2149159936 1;
+BA_ "VFrameFormat" BO_ 2150208768 1;
+BA_ "GenMsgSendType" BO_ 2150208768 1;
+BA_ "VFrameFormat" BO_ 2149160192 1;
+BA_ "GenMsgSendType" BO_ 2149160192 1;
+BA_ "VFrameFormat" BO_ 2150209024 1;
+BA_ "GenMsgSendType" BO_ 2150209024 1;
+BA_ "VFrameFormat" BO_ 2149160448 1;
+BA_ "GenMsgSendType" BO_ 2149160448 1;
+BA_ "VFrameFormat" BO_ 2150209280 1;
+BA_ "GenMsgSendType" BO_ 2150209280 1;
+BA_ "VFrameFormat" BO_ 2149160704 1;
+BA_ "GenMsgSendType" BO_ 2149160704 1;
+BA_ "VFrameFormat" BO_ 2150209536 1;
+BA_ "GenMsgSendType" BO_ 2150209536 1;
+BA_ "VFrameFormat" BO_ 2149160960 1;
+BA_ "GenMsgSendType" BO_ 2149160960 1;
+BA_ "VFrameFormat" BO_ 2150208000 1;
+BA_ "GenMsgSendType" BO_ 2150208000 1;
+BA_ "VFrameFormat" BO_ 2149159424 1;
+BA_ "GenMsgSendType" BO_ 2149159424 1;
+BA_ "VFrameFormat" BO_ 2150215680 1;
+BA_ "GenMsgSendType" BO_ 2150215680 1;
+BA_ "VFrameFormat" BO_ 2149167104 1;
+BA_ "GenMsgSendType" BO_ 2149167104 1;
+BA_ "VFrameFormat" BO_ 2150215936 1;
+BA_ "GenMsgSendType" BO_ 2150215936 1;
+BA_ "VFrameFormat" BO_ 2149167360 1;
+BA_ "GenMsgSendType" BO_ 2149167360 1;
+BA_ "VFrameFormat" BO_ 2150216704 1;
+BA_ "GenMsgSendType" BO_ 2150216704 1;
+BA_ "VFrameFormat" BO_ 2149168128 1;
+BA_ "GenMsgSendType" BO_ 2149168128 1;
+BA_ "VFrameFormat" BO_ 2150216960 1;
+BA_ "GenMsgSendType" BO_ 2150216960 1;
+BA_ "VFrameFormat" BO_ 2149168384 1;
+BA_ "GenMsgSendType" BO_ 2149168384 1;
+BA_ "VFrameFormat" BO_ 2150217216 1;
+BA_ "GenMsgSendType" BO_ 2150217216 1;
+BA_ "VFrameFormat" BO_ 2149168640 1;
+BA_ "GenMsgSendType" BO_ 2149168640 1;
+BA_ "VFrameFormat" BO_ 2150217472 1;
+BA_ "GenMsgSendType" BO_ 2150217472 1;
+BA_ "VFrameFormat" BO_ 2149168896 1;
+BA_ "GenMsgSendType" BO_ 2149168896 1;
+BA_ "VFrameFormat" BO_ 2150217728 1;
+BA_ "GenMsgSendType" BO_ 2150217728 1;
+BA_ "VFrameFormat" BO_ 2149169152 1;
+BA_ "GenMsgSendType" BO_ 2149169152 1;
+BA_ "VFrameFormat" BO_ 2150216192 1;
+BA_ "GenMsgSendType" BO_ 2150216192 1;
+BA_ "VFrameFormat" BO_ 2149167616 1;
+BA_ "GenMsgSendType" BO_ 2149167616 1;
+BA_ "VFrameFormat" BO_ 2148991488 1;
+BA_ "GenMsgSendType" BO_ 2148991488 1;
+BA_ "VFrameFormat" BO_ 2148991744 1;
+BA_ "GenMsgSendType" BO_ 2148991744 1;
+BA_ "VFrameFormat" BO_ 2150199296 1;
+BA_ "GenMsgSendType" BO_ 2150199296 1;
+BA_ "VFrameFormat" BO_ 2149150720 1;
+BA_ "GenMsgSendType" BO_ 2149150720 1;
+BA_ "VFrameFormat" BO_ 2150199552 1;
+BA_ "GenMsgSendType" BO_ 2150199552 1;
+BA_ "VFrameFormat" BO_ 2149150976 1;
+BA_ "GenMsgSendType" BO_ 2149150976 1;
+BA_ "VFrameFormat" BO_ 2150200320 1;
+BA_ "GenMsgSendType" BO_ 2150200320 1;
+BA_ "VFrameFormat" BO_ 2149151744 1;
+BA_ "GenMsgSendType" BO_ 2149151744 1;
+BA_ "VFrameFormat" BO_ 2150200576 1;
+BA_ "GenMsgSendType" BO_ 2150200576 1;
+BA_ "VFrameFormat" BO_ 2149152000 1;
+BA_ "GenMsgSendType" BO_ 2149152000 1;
+BA_ "VFrameFormat" BO_ 2150200832 1;
+BA_ "GenMsgSendType" BO_ 2150200832 1;
+BA_ "VFrameFormat" BO_ 2149152256 1;
+BA_ "GenMsgSendType" BO_ 2149152256 1;
+BA_ "VFrameFormat" BO_ 2150201088 1;
+BA_ "GenMsgSendType" BO_ 2150201088 1;
+BA_ "VFrameFormat" BO_ 2149152512 1;
+BA_ "GenMsgSendType" BO_ 2149152512 1;
+BA_ "VFrameFormat" BO_ 2150201344 1;
+BA_ "GenMsgSendType" BO_ 2150201344 1;
+BA_ "VFrameFormat" BO_ 2149152768 1;
+BA_ "GenMsgSendType" BO_ 2149152768 1;
+BA_ "VFrameFormat" BO_ 2150199808 1;
+BA_ "GenMsgSendType" BO_ 2150199808 1;
+BA_ "VFrameFormat" BO_ 2149151232 1;
+BA_ "GenMsgSendType" BO_ 2149151232 1;
+BA_ "VFrameFormat" BO_ 2150203392 1;
+BA_ "GenMsgSendType" BO_ 2150203392 1;
+BA_ "VFrameFormat" BO_ 2149154816 1;
+BA_ "GenMsgSendType" BO_ 2149154816 1;
+BA_ "VFrameFormat" BO_ 2150203648 1;
+BA_ "GenMsgSendType" BO_ 2150203648 1;
+BA_ "VFrameFormat" BO_ 2149155072 1;
+BA_ "GenMsgSendType" BO_ 2149155072 1;
+BA_ "VFrameFormat" BO_ 2150204416 1;
+BA_ "GenMsgSendType" BO_ 2150204416 1;
+BA_ "VFrameFormat" BO_ 2149155840 1;
+BA_ "GenMsgSendType" BO_ 2149155840 1;
+BA_ "VFrameFormat" BO_ 2150204672 1;
+BA_ "GenMsgSendType" BO_ 2150204672 1;
+BA_ "VFrameFormat" BO_ 2149156096 1;
+BA_ "GenMsgSendType" BO_ 2149156096 1;
+BA_ "VFrameFormat" BO_ 2150204928 1;
+BA_ "GenMsgSendType" BO_ 2150204928 1;
+BA_ "VFrameFormat" BO_ 2149156352 1;
+BA_ "GenMsgSendType" BO_ 2149156352 1;
+BA_ "VFrameFormat" BO_ 2150205184 1;
+BA_ "GenMsgSendType" BO_ 2150205184 1;
+BA_ "VFrameFormat" BO_ 2149156608 1;
+BA_ "GenMsgSendType" BO_ 2149156608 1;
+BA_ "VFrameFormat" BO_ 2150205440 1;
+BA_ "GenMsgSendType" BO_ 2150205440 1;
+BA_ "VFrameFormat" BO_ 2149156864 1;
+BA_ "GenMsgSendType" BO_ 2149156864 1;
+BA_ "VFrameFormat" BO_ 2150203904 1;
+BA_ "GenMsgSendType" BO_ 2150203904 1;
+BA_ "VFrameFormat" BO_ 2149155328 1;
+BA_ "GenMsgSendType" BO_ 2149155328 1;
+BA_ "VFrameFormat" BO_ 2150223872 1;
+BA_ "GenMsgSendType" BO_ 2150223872 1;
+BA_ "VFrameFormat" BO_ 2149175296 1;
+BA_ "GenMsgSendType" BO_ 2149175296 1;
+BA_ "VFrameFormat" BO_ 2150224128 1;
+BA_ "GenMsgSendType" BO_ 2150224128 1;
+BA_ "VFrameFormat" BO_ 2149175552 1;
+BA_ "GenMsgSendType" BO_ 2149175552 1;
+BA_ "VFrameFormat" BO_ 2150224896 1;
+BA_ "GenMsgSendType" BO_ 2150224896 1;
+BA_ "VFrameFormat" BO_ 2149176320 1;
+BA_ "GenMsgSendType" BO_ 2149176320 1;
+BA_ "VFrameFormat" BO_ 2150225152 1;
+BA_ "GenMsgSendType" BO_ 2150225152 1;
+BA_ "VFrameFormat" BO_ 2149176576 1;
+BA_ "GenMsgSendType" BO_ 2149176576 1;
+BA_ "VFrameFormat" BO_ 2150225408 1;
+BA_ "GenMsgSendType" BO_ 2150225408 1;
+BA_ "VFrameFormat" BO_ 2149176832 1;
+BA_ "GenMsgSendType" BO_ 2149176832 1;
+BA_ "VFrameFormat" BO_ 2150225664 1;
+BA_ "GenMsgSendType" BO_ 2150225664 1;
+BA_ "VFrameFormat" BO_ 2149177088 1;
+BA_ "GenMsgSendType" BO_ 2149177088 1;
+BA_ "VFrameFormat" BO_ 2150225920 1;
+BA_ "GenMsgSendType" BO_ 2150225920 1;
+BA_ "VFrameFormat" BO_ 2149177344 1;
+BA_ "GenMsgSendType" BO_ 2149177344 1;
+BA_ "VFrameFormat" BO_ 2150224384 1;
+BA_ "GenMsgSendType" BO_ 2150224384 1;
+BA_ "VFrameFormat" BO_ 2149175808 1;
+BA_ "GenMsgSendType" BO_ 2149175808 1;
+BA_ "VFrameFormat" BO_ 2150219776 1;
+BA_ "GenMsgSendType" BO_ 2150219776 1;
+BA_ "VFrameFormat" BO_ 2149171200 1;
+BA_ "GenMsgSendType" BO_ 2149171200 1;
+BA_ "VFrameFormat" BO_ 2150220032 1;
+BA_ "GenMsgSendType" BO_ 2150220032 1;
+BA_ "VFrameFormat" BO_ 2149171456 1;
+BA_ "GenMsgSendType" BO_ 2149171456 1;
+BA_ "VFrameFormat" BO_ 2150220800 1;
+BA_ "GenMsgSendType" BO_ 2150220800 1;
+BA_ "VFrameFormat" BO_ 2149172224 1;
+BA_ "GenMsgSendType" BO_ 2149172224 1;
+BA_ "VFrameFormat" BO_ 2150221056 1;
+BA_ "GenMsgSendType" BO_ 2150221056 1;
+BA_ "VFrameFormat" BO_ 2149172480 1;
+BA_ "GenMsgSendType" BO_ 2149172480 1;
+BA_ "VFrameFormat" BO_ 2150221312 1;
+BA_ "GenMsgSendType" BO_ 2150221312 1;
+BA_ "VFrameFormat" BO_ 2149172736 1;
+BA_ "GenMsgSendType" BO_ 2149172736 1;
+BA_ "VFrameFormat" BO_ 2150221568 1;
+BA_ "GenMsgSendType" BO_ 2150221568 1;
+BA_ "VFrameFormat" BO_ 2149172992 1;
+BA_ "GenMsgSendType" BO_ 2149172992 1;
+BA_ "VFrameFormat" BO_ 2150221824 1;
+BA_ "GenMsgSendType" BO_ 2150221824 1;
+BA_ "VFrameFormat" BO_ 2149173248 1;
+BA_ "GenMsgSendType" BO_ 2149173248 1;
+BA_ "VFrameFormat" BO_ 2150220288 1;
+BA_ "GenMsgSendType" BO_ 2150220288 1;
+BA_ "VFrameFormat" BO_ 2149171712 1;
+BA_ "GenMsgSendType" BO_ 2149171712 1;
+BA_ "VFrameFormat" BO_ 2150227968 1;
+BA_ "GenMsgSendType" BO_ 2150227968 1;
+BA_ "VFrameFormat" BO_ 2149179392 1;
+BA_ "GenMsgSendType" BO_ 2149179392 1;
+BA_ "VFrameFormat" BO_ 2150228224 1;
+BA_ "GenMsgSendType" BO_ 2150228224 1;
+BA_ "VFrameFormat" BO_ 2149179648 1;
+BA_ "GenMsgSendType" BO_ 2149179648 1;
+BA_ "VFrameFormat" BO_ 2150228992 1;
+BA_ "GenMsgSendType" BO_ 2150228992 1;
+BA_ "VFrameFormat" BO_ 2149180416 1;
+BA_ "GenMsgSendType" BO_ 2149180416 1;
+BA_ "VFrameFormat" BO_ 2150229248 1;
+BA_ "GenMsgSendType" BO_ 2150229248 1;
+BA_ "VFrameFormat" BO_ 2149180672 1;
+BA_ "GenMsgSendType" BO_ 2149180672 1;
+BA_ "VFrameFormat" BO_ 2150229504 1;
+BA_ "GenMsgSendType" BO_ 2150229504 1;
+BA_ "VFrameFormat" BO_ 2149180928 1;
+BA_ "GenMsgSendType" BO_ 2149180928 1;
+BA_ "VFrameFormat" BO_ 2150229760 1;
+BA_ "GenMsgSendType" BO_ 2150229760 1;
+BA_ "VFrameFormat" BO_ 2149181184 1;
+BA_ "GenMsgSendType" BO_ 2149181184 1;
+BA_ "VFrameFormat" BO_ 2150230016 1;
+BA_ "GenMsgSendType" BO_ 2150230016 1;
+BA_ "VFrameFormat" BO_ 2149181440 1;
+BA_ "GenMsgSendType" BO_ 2149181440 1;
+BA_ "VFrameFormat" BO_ 2150228480 1;
+BA_ "GenMsgSendType" BO_ 2150228480 1;
+BA_ "VFrameFormat" BO_ 2149179904 1;
+BA_ "GenMsgSendType" BO_ 2149179904 1;
+BA_ "VFrameFormat" BO_ 2150173696 1;
+BA_ "GenMsgSendType" BO_ 2150173696 1;
+BA_ "VFrameFormat" BO_ 2149125120 1;
+BA_ "GenMsgSendType" BO_ 2149125120 1;
+BA_ "VFrameFormat" BO_ 2150173952 1;
+BA_ "GenMsgSendType" BO_ 2150173952 1;
+BA_ "VFrameFormat" BO_ 2149125376 1;
+BA_ "GenMsgSendType" BO_ 2149125376 1;
+BA_ "VFrameFormat" BO_ 2150695424 1;
+BA_ "GenMsgSendType" BO_ 2150695424 1;
+BA_ "VFrameFormat" BO_ 2150695168 1;
+BA_ "GenMsgSendType" BO_ 2150695168 1;
+BA_ "VFrameFormat" BO_ 2150694912 1;
+BA_ "GenMsgSendType" BO_ 2150694912 1;
+BA_ "VFrameFormat" BO_ 2150695680 1;
+BA_ "GenMsgSendType" BO_ 2150695680 1;
+BA_ "VFrameFormat" BO_ 2150176768 1;
+BA_ "GenMsgSendType" BO_ 2150176768 1;
+BA_ "VFrameFormat" BO_ 2149128192 1;
+BA_ "GenMsgSendType" BO_ 2149128192 1;
+BA_ "VFrameFormat" BO_ 2150177024 1;
+BA_ "GenMsgSendType" BO_ 2150177024 1;
+BA_ "VFrameFormat" BO_ 2149128448 1;
+BA_ "GenMsgSendType" BO_ 2149128448 1;
+BA_ "VFrameFormat" BO_ 2150176256 1;
+BA_ "GenMsgSendType" BO_ 2150176256 1;
+BA_ "VFrameFormat" BO_ 2149127680 1;
+BA_ "GenMsgSendType" BO_ 2149127680 1;
+BA_ "VFrameFormat" BO_ 2150176512 1;
+BA_ "GenMsgSendType" BO_ 2150176512 1;
+BA_ "VFrameFormat" BO_ 2149127936 1;
+BA_ "GenMsgSendType" BO_ 2149127936 1;
+BA_ "VFrameFormat" BO_ 2150236672 1;
+BA_ "GenMsgSendType" BO_ 2150236672 1;
+BA_ "VFrameFormat" BO_ 2149188096 1;
+BA_ "GenMsgSendType" BO_ 2149188096 1;
+BA_ "VFrameFormat" BO_ 2148929536 1;
+BA_ "GenMsgSendType" BO_ 2148929536 1;
+BA_ "VFrameFormat" BO_ 2150760960 1;
+BA_ "GenMsgSendType" BO_ 2150760960 1;
+BA_ "VFrameFormat" BO_ 2150177792 1;
+BA_ "GenMsgSendType" BO_ 2150177792 1;
+BA_ "VFrameFormat" BO_ 2149129216 1;
+BA_ "GenMsgSendType" BO_ 2149129216 1;
+BA_ "VFrameFormat" BO_ 2148930304 1;
+BA_ "GenMsgSendType" BO_ 2148930304 1;
+BA_ "VFrameFormat" BO_ 2150177280 1;
+BA_ "GenMsgSendType" BO_ 2150177280 1;
+BA_ "VFrameFormat" BO_ 2149128704 1;
+BA_ "GenMsgSendType" BO_ 2149128704 1;
+BA_ "VFrameFormat" BO_ 2150177536 1;
+BA_ "GenMsgSendType" BO_ 2150177536 1;
+BA_ "VFrameFormat" BO_ 2149128960 1;
+BA_ "GenMsgSendType" BO_ 2149128960 1;
+BA_ "VFrameFormat" BO_ 2163413248 1;
+BA_ "GenMsgSendType" BO_ 2163413248 1;
+BA_ "VFrameFormat" BO_ 2163412992 1;
+BA_ "GenMsgSendType" BO_ 2163412992 1;
+BA_ "VFrameFormat" BO_ 2163473920 1;
+BA_ "GenMsgSendType" BO_ 2163473920 1;
+BA_ "VFrameFormat" BO_ 2148991232 1;
+BA_ "GenMsgSendType" BO_ 2148991232 1;
+BA_ "VFrameFormat" BO_ 2148992256 1;
+BA_ "GenMsgSendType" BO_ 2148992256 1;
+BA_ "VFrameFormat" BO_ 2150178816 1;
+BA_ "GenMsgSendType" BO_ 2150178816 1;
+BA_ "VFrameFormat" BO_ 2149130240 1;
+BA_ "GenMsgSendType" BO_ 2149130240 1;
+BA_ "VFrameFormat" BO_ 2150179072 1;
+BA_ "GenMsgSendType" BO_ 2150179072 1;
+BA_ "VFrameFormat" BO_ 2149130496 1;
+BA_ "GenMsgSendType" BO_ 2149130496 1;
+BA_ "VFrameFormat" BO_ 2150179840 1;
+BA_ "GenMsgSendType" BO_ 2150179840 1;
+BA_ "VFrameFormat" BO_ 2149131264 1;
+BA_ "GenMsgSendType" BO_ 2149131264 1;
+BA_ "VFrameFormat" BO_ 2150180096 1;
+BA_ "GenMsgSendType" BO_ 2150180096 1;
+BA_ "VFrameFormat" BO_ 2149131520 1;
+BA_ "GenMsgSendType" BO_ 2149131520 1;
+BA_ "VFrameFormat" BO_ 2150180352 1;
+BA_ "GenMsgSendType" BO_ 2150180352 1;
+BA_ "VFrameFormat" BO_ 2149131776 1;
+BA_ "GenMsgSendType" BO_ 2149131776 1;
+BA_ "VFrameFormat" BO_ 2150180608 1;
+BA_ "GenMsgSendType" BO_ 2150180608 1;
+BA_ "VFrameFormat" BO_ 2149132032 1;
+BA_ "GenMsgSendType" BO_ 2149132032 1;
+BA_ "VFrameFormat" BO_ 2150180864 1;
+BA_ "GenMsgSendType" BO_ 2150180864 1;
+BA_ "VFrameFormat" BO_ 2149132288 1;
+BA_ "GenMsgSendType" BO_ 2149132288 1;
+BA_ "VFrameFormat" BO_ 2150179328 1;
+BA_ "GenMsgSendType" BO_ 2150179328 1;
+BA_ "VFrameFormat" BO_ 2149130752 1;
+BA_ "GenMsgSendType" BO_ 2149130752 1;
+BA_ "VFrameFormat" BO_ 2150179584 1;
+BA_ "GenMsgSendType" BO_ 2150179584 1;
+BA_ "VFrameFormat" BO_ 2149131008 1;
+BA_ "GenMsgSendType" BO_ 2149131008 1;
+BA_ "VFrameFormat" BO_ 2150187008 1;
+BA_ "GenMsgSendType" BO_ 2150187008 1;
+BA_ "VFrameFormat" BO_ 2149138432 1;
+BA_ "GenMsgSendType" BO_ 2149138432 1;
+BA_ "VFrameFormat" BO_ 2150187264 1;
+BA_ "GenMsgSendType" BO_ 2150187264 1;
+BA_ "VFrameFormat" BO_ 2149138688 1;
+BA_ "GenMsgSendType" BO_ 2149138688 1;
+BA_ "VFrameFormat" BO_ 2150188032 1;
+BA_ "GenMsgSendType" BO_ 2150188032 1;
+BA_ "VFrameFormat" BO_ 2149139456 1;
+BA_ "GenMsgSendType" BO_ 2149139456 1;
+BA_ "VFrameFormat" BO_ 2150188288 1;
+BA_ "GenMsgSendType" BO_ 2150188288 1;
+BA_ "VFrameFormat" BO_ 2149139712 1;
+BA_ "GenMsgSendType" BO_ 2149139712 1;
+BA_ "VFrameFormat" BO_ 2150188544 1;
+BA_ "GenMsgSendType" BO_ 2150188544 1;
+BA_ "VFrameFormat" BO_ 2149139968 1;
+BA_ "GenMsgSendType" BO_ 2149139968 1;
+BA_ "VFrameFormat" BO_ 2150188800 1;
+BA_ "GenMsgSendType" BO_ 2150188800 1;
+BA_ "VFrameFormat" BO_ 2149140224 1;
+BA_ "GenMsgSendType" BO_ 2149140224 1;
+BA_ "VFrameFormat" BO_ 2150189056 1;
+BA_ "GenMsgSendType" BO_ 2150189056 1;
+BA_ "VFrameFormat" BO_ 2149140480 1;
+BA_ "GenMsgSendType" BO_ 2149140480 1;
+BA_ "VFrameFormat" BO_ 2150187520 1;
+BA_ "GenMsgSendType" BO_ 2150187520 1;
+BA_ "VFrameFormat" BO_ 2149138944 1;
+BA_ "GenMsgSendType" BO_ 2149138944 1;
+BA_ "VFrameFormat" BO_ 2150232064 1;
+BA_ "GenMsgSendType" BO_ 2150232064 1;
+BA_ "VFrameFormat" BO_ 2149183488 1;
+BA_ "GenMsgSendType" BO_ 2149183488 1;
+BA_ "VFrameFormat" BO_ 2150232320 1;
+BA_ "GenMsgSendType" BO_ 2150232320 1;
+BA_ "VFrameFormat" BO_ 2149183744 1;
+BA_ "GenMsgSendType" BO_ 2149183744 1;
+BA_ "VFrameFormat" BO_ 2150233088 1;
+BA_ "GenMsgSendType" BO_ 2150233088 1;
+BA_ "VFrameFormat" BO_ 2149184512 1;
+BA_ "GenMsgSendType" BO_ 2149184512 1;
+BA_ "VFrameFormat" BO_ 2150233344 1;
+BA_ "GenMsgSendType" BO_ 2150233344 1;
+BA_ "VFrameFormat" BO_ 2149184768 1;
+BA_ "GenMsgSendType" BO_ 2149184768 1;
+BA_ "VFrameFormat" BO_ 2150233600 1;
+BA_ "GenMsgSendType" BO_ 2150233600 1;
+BA_ "VFrameFormat" BO_ 2149185024 1;
+BA_ "GenMsgSendType" BO_ 2149185024 1;
+BA_ "VFrameFormat" BO_ 2150233856 1;
+BA_ "GenMsgSendType" BO_ 2150233856 1;
+BA_ "VFrameFormat" BO_ 2149185280 1;
+BA_ "GenMsgSendType" BO_ 2149185280 1;
+BA_ "VFrameFormat" BO_ 2150234112 1;
+BA_ "GenMsgSendType" BO_ 2150234112 1;
+BA_ "VFrameFormat" BO_ 2149185536 1;
+BA_ "GenMsgSendType" BO_ 2149185536 1;
+BA_ "VFrameFormat" BO_ 2150232576 1;
+BA_ "GenMsgSendType" BO_ 2150232576 1;
+BA_ "VFrameFormat" BO_ 2149184000 1;
+BA_ "GenMsgSendType" BO_ 2149184000 1;
+BA_ "VFrameFormat" BO_ 2149605120 1;
+BA_ "GenMsgSendType" BO_ 2149605120 1;
+BA_ "VFrameFormat" BO_ 2149605376 1;
+BA_ "GenMsgSendType" BO_ 2149605376 1;
+BA_ "VFrameFormat" BO_ 2149590016 1;
+BA_ "GenMsgSendType" BO_ 2149590016 1;
+BA_ "VFrameFormat" BO_ 2149603328 1;
+BA_ "GenMsgSendType" BO_ 2149603328 1;
+BA_ "VFrameFormat" BO_ 2149604352 1;
+BA_ "GenMsgSendType" BO_ 2149604352 1;
+BA_ "VFrameFormat" BO_ 2149604864 1;
+BA_ "GenMsgSendType" BO_ 2149604864 1;
+BA_ "VFrameFormat" BO_ 2149604608 1;
+BA_ "GenMsgSendType" BO_ 2149604608 1;
+BA_ "VFrameFormat" BO_ 2150170368 1;
+BA_ "GenMsgSendType" BO_ 2150170368 1;
+BA_ "VFrameFormat" BO_ 2156006656 1;
+BA_ "GenMsgSendType" BO_ 2156006656 1;
+BA_ "VFrameFormat" BO_ 2150109952 1;
+BA_ "GenMsgSendType" BO_ 2150109952 1;
+BA_ "VFrameFormat" BO_ 2149604096 1;
+BA_ "GenMsgSendType" BO_ 2149604096 1;
+BA_ "VFrameFormat" BO_ 2150109696 1;
+BA_ "GenMsgSendType" BO_ 2150109696 1;
+BA_ "VFrameFormat" BO_ 2150109440 1;
+BA_ "GenMsgSendType" BO_ 2150109440 1;
+BA_ "VFrameFormat" BO_ 2150109184 1;
+BA_ "GenMsgSendType" BO_ 2150109184 1;
+BA_ "VFrameFormat" BO_ 2150110208 1;
+BA_ "GenMsgSendType" BO_ 2150110208 1;
+BA_ "VFrameFormat" BO_ 2149605632 1;
+BA_ "GenMsgSendType" BO_ 2149605632 1;
+BA_ "VFrameFormat" BO_ 2149602816 1;
+BA_ "GenMsgSendType" BO_ 2149602816 1;
+BA_ "VFrameFormat" BO_ 2149603072 1;
+BA_ "GenMsgSendType" BO_ 2149603072 1;
+BA_ "VFrameFormat" BO_ 2149603840 1;
+BA_ "GenMsgSendType" BO_ 2149603840 1;
+BA_ "VFrameFormat" BO_ 2149646336 1;
+BA_ "GenMsgSendType" BO_ 2149646336 1;
+BA_ "VFrameFormat" BO_ 2163343872 1;
+BA_ "GenMsgSendType" BO_ 2163343872 1;
+BA_ "VFrameFormat" BO_ 2163343616 1;
+BA_ "GenMsgSendType" BO_ 2163343616 1;
+BA_ "VFrameFormat" BO_ 2163408384 1;
+BA_ "GenMsgSendType" BO_ 2163408384 1;
+BA_ "VFrameFormat" BO_ 2149602560 1;
+BA_ "GenMsgSendType" BO_ 2149602560 1;
+BA_ "VFrameFormat" BO_ 2149603584 1;
+BA_ "GenMsgSendType" BO_ 2149603584 1;
+BA_ "GenSigStartValue" SG_ 2151681536 BB_Balancing_Temps 80;
+BA_ "GenSigStartValue" SG_ 2151681536 BB_FET_Temps 80;
+BA_ "GenSigStartValue" SG_ 2151681536 BB_GAN_Temps 80;
+BA_ "GenSigStartValue" SG_ 2151681536 BB_Interal_BQ_Temp 80;
+BA_ "GenSigStartValue" SG_ 2151681536 BB_Internal_ADBMS_temp 80;
+BA_ "GenSigStartValue" SG_ 2151679488 Submodule1C 80;
+BA_ "GenSigStartValue" SG_ 2151679488 Submodule2C 80;
+BA_ "GenSigStartValue" SG_ 2151679488 Submodule3C 80;
+BA_ "GenSigStartValue" SG_ 2151679488 Submodule4C 80;
+BA_ "GenSigStartValue" SG_ 2151679488 Submodule5C 80;
+BA_ "GenSigStartValue" SG_ 2151679488 Submodule6C 80;
+BA_ "GenSigStartValue" SG_ 2151679744 BBHeatsinkC 60;
+BA_ "GenSigStartValue" SG_ 2148992256 INV_AmbientTemp_C 60;
+BA_ "GenSigStartValue" SG_ 2148992256 INV_BoardTemp_C 60;
+BA_ "GenSigStartValue" SG_ 2148992256 INV_DieTemp_C 60;
