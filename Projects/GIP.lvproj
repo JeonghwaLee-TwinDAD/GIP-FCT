@@ -70,7 +70,7 @@
 		<Item Name="MIO Wrappers.lvlib" Type="Library" URL="../../Sequence/CodeModules/Wrappers/MIO Wrappers.lvlib"/>
 		<Item Name="CAN GIP.lvlib" Type="Library" URL="../../Sequence/CodeModules/CANbus/CAN GIP.lvlib"/>
 		<Item Name="OPCUA.lvlib" Type="Library" URL="../../Sequence/CodeModules/OPCUA/OPCUA.lvlib"/>
-		<Item Name="TDMS GIP.lvlib" Type="Library" URL="../../Sequence/CodeModules/TDMS Log/TDMS GIP.lvlib"/>
+		<Item Name="Display.lvlib" Type="Library" URL="../../Sequence/CodeModules/TDMS Log/Display.lvlib"/>
 		<Item Name="Database Config.ini" Type="Document" URL="../../Config/Database Config.ini"/>
 		<Item Name="Hardware Config.ini" Type="Document" URL="../../Config/Hardware Config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -427,12 +427,6 @@
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
 				<Item Name="NodeIds.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/NodeIds.ctl"/>
 				<Item Name="Write Variant Result.ctl" Type="VI" URL="/&lt;vilib&gt;/OPCUA/controls/Write Variant Result.ctl"/>
-				<Item Name="TDMS Logger.lvlib" Type="Library" URL="/&lt;vilib&gt;/National Instruments/Asynchronous TDMS Logger/TDMS Logger.lvlib"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
-				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
-				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Agilent N6700 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent N6700 Series/Agilent N6700 Series.lvlib"/>
