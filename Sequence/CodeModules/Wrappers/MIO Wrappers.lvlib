@@ -19,4 +19,6 @@
 		<Item Name="DMM Wrapper.vi" Type="VI" URL="../SubVIs/DMM Wrapper.vi"/>
 		<Item Name="Switch Relays.vi" Type="VI" URL="../SubVIs/Switch Relays.vi"/>
 	</Item>
+	<Item Name="APS7050 Main.vi" Type="VI" URL="../APS7050 Main.vi"/>
+	<Item Name="Keysight6700 Main.vi" Type="VI" URL="../Keysight6700 Main.vi"/>
 </Library>

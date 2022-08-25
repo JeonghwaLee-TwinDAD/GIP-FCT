@@ -22,4 +22,5 @@
 		<Item Name="CAN GIP Test.vi" Type="VI" URL="../CAN GIP Test.vi"/>
 		<Item Name="GIP CAN Wrapper.vi" Type="VI" URL="../Private VIs/GIP CAN Wrapper.vi"/>
 	</Item>
+	<Item Name="CAN GIP sample.vi" Type="VI" URL="../CAN GIP sample.vi"/>
 </Library>
