@@ -16,11 +16,10 @@
 	<Item Name="Private VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Get KeyValues.vi" Type="VI" URL="../Private VIs/Get KeyValues.vi"/>
+		<Item Name="GIP CAN Wrapper.vi" Type="VI" URL="../Private VIs/GIP CAN Wrapper.vi"/>
 		<Item Name="JSON Generator.vi" Type="VI" URL="../Private VIs/JSON Generator.vi"/>
 	</Item>
 	<Item Name="Public VIs" Type="Folder">
-		<Item Name="CAN GIP Test.vi" Type="VI" URL="../CAN GIP Test.vi"/>
-		<Item Name="GIP CAN Wrapper.vi" Type="VI" URL="../Private VIs/GIP CAN Wrapper.vi"/>
+		<Item Name="GIP CAN Main.vi" Type="VI" URL="../GIP CAN Main.vi"/>
 	</Item>
-	<Item Name="CAN GIP sample.vi" Type="VI" URL="../CAN GIP sample.vi"/>
 </Library>
