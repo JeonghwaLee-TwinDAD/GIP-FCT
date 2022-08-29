@@ -10,15 +10,17 @@
 	<Item Name="Controls" Type="Folder">
 		<Item Name="DMM States.ctl" Type="VI" URL="../Controls/DMM States.ctl"/>
 		<Item Name="PS States.ctl" Type="VI" URL="../Controls/PS States.ctl"/>
-		<Item Name="Relay States.ctl" Type="VI" URL="../Controls/Relay States.ctl"/>
+		<Item Name="Serial States.ctl" Type="VI" URL="../Controls/Serial States.ctl"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="6700C Wrapper.vi" Type="VI" URL="../SubVIs/6700C Wrapper.vi"/>
 		<Item Name="APS-7050 Wrapper.vi" Type="VI" URL="../SubVIs/APS-7050 Wrapper.vi"/>
+		<Item Name="DAQ DI.vi" Type="VI" URL="../SubVIs/DAQ DI.vi"/>
 		<Item Name="DAQ DO.vi" Type="VI" URL="../SubVIs/DAQ DO.vi"/>
 		<Item Name="DMM Wrapper.vi" Type="VI" URL="../SubVIs/DMM Wrapper.vi"/>
-		<Item Name="Switch Relays.vi" Type="VI" URL="../SubVIs/Switch Relays.vi"/>
+		<Item Name="Serial.vi" Type="VI" URL="../SubVIs/Serial.vi"/>
 	</Item>
 	<Item Name="APS7050 Main.vi" Type="VI" URL="../APS7050 Main.vi"/>
 	<Item Name="Keysight6700 Main.vi" Type="VI" URL="../Keysight6700 Main.vi"/>
+	<Item Name="Serial Main.vi" Type="VI" URL="../Serial Main.vi"/>
 </Library>
