@@ -68,7 +68,7 @@
 			<Item Name="UUTInfomation.vi" Type="VI" URL="../../Sequence/CodeModules/DUT PrePost/UUTInfomation.vi"/>
 		</Item>
 		<Item Name="Wrappers.lvlib" Type="Library" URL="../../Sequence/CodeModules/Wrappers/Wrappers.lvlib"/>
-		<Item Name="CAN GIP.lvlib" Type="Library" URL="../../Sequence/CodeModules/CANbus/CAN GIP.lvlib"/>
+		<Item Name="CAN wrapper.lvlib" Type="Library" URL="../../Sequence/CodeModules/CANbus/CAN wrapper.lvlib"/>
 		<Item Name="OPCUA.lvlib" Type="Library" URL="../../Sequence/CodeModules/OPCUA/OPCUA.lvlib"/>
 		<Item Name="Diagonistics.lvlib" Type="Library" URL="../../Sequence/CodeModules/Test Monitoring/Diagonistics.lvlib"/>
 		<Item Name="Database Config.ini" Type="Document" URL="../../Config/Database Config.ini"/>
