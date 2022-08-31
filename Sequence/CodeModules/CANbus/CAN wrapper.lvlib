@@ -18,6 +18,10 @@
 		<Item Name="Get KeyValues.vi" Type="VI" URL="../Private VIs/Get KeyValues.vi"/>
 		<Item Name="JSON Generator.vi" Type="VI" URL="../Private VIs/JSON Generator.vi"/>
 	</Item>
+	<Item Name="Public VIs" Type="Folder">
+		<Item Name="CAN Wrapper.vi" Type="VI" URL="../Public VIs/CAN Wrapper.vi"/>
+		<Item Name="Convert Binary to Genealogy.vi" Type="VI" URL="../Public VIs/Convert Binary to Genealogy.vi"/>
+		<Item Name="Convert Genealogy to Binary.vi" Type="VI" URL="../Public VIs/Convert Genealogy to Binary.vi"/>
+	</Item>
 	<Item Name="CAN Main.vi" Type="VI" URL="../CAN Main.vi"/>
-	<Item Name="CAN Wrapper.vi" Type="VI" URL="../Private VIs/CAN Wrapper.vi"/>
 </Library>
