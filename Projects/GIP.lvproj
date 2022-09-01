@@ -73,7 +73,6 @@
 		<Item Name="Diagonistics.lvlib" Type="Library" URL="../../Sequence/CodeModules/Test Monitoring/Diagonistics.lvlib"/>
 		<Item Name="Database Config.ini" Type="Document" URL="../../Config/Database Config.ini"/>
 		<Item Name="Hardware Config.ini" Type="Document" URL="../../Config/Hardware Config.ini"/>
-		<Item Name="Test Steps.ctl" Type="VI" URL="../../Sequence/CodeModules/CANbus/Private Controls/Test Steps.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>

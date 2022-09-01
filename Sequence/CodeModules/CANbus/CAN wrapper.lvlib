@@ -12,6 +12,7 @@
 		<Item Name="CAN States.ctl" Type="VI" URL="../Private Controls/CAN States.ctl"/>
 		<Item Name="Local Variables.ctl" Type="VI" URL="../Private Controls/Local Variables.ctl"/>
 		<Item Name="Setting.ctl" Type="VI" URL="../Private Controls/Setting.ctl"/>
+		<Item Name="Test Steps.ctl" Type="VI" URL="../Private Controls/Test Steps.ctl"/>
 	</Item>
 	<Item Name="Private VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
