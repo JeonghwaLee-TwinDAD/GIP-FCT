@@ -68,11 +68,12 @@
 			<Item Name="UUTInfomation.vi" Type="VI" URL="../../Sequence/CodeModules/DUT PrePost/UUTInfomation.vi"/>
 		</Item>
 		<Item Name="Wrappers.lvlib" Type="Library" URL="../../Sequence/CodeModules/Wrappers/Wrappers.lvlib"/>
-		<Item Name="OPCUA.lvlib" Type="Library" URL="../../Sequence/CodeModules/OPCUA/OPCUA.lvlib"/>
 		<Item Name="CAN wrapper.lvlib" Type="Library" URL="../../Sequence/CodeModules/CANbus/CAN wrapper.lvlib"/>
+		<Item Name="OPCUA.lvlib" Type="Library" URL="../../Sequence/CodeModules/OPCUA/OPCUA.lvlib"/>
 		<Item Name="Diagonistics.lvlib" Type="Library" URL="../../Sequence/CodeModules/Test Monitoring/Diagonistics.lvlib"/>
 		<Item Name="Database Config.ini" Type="Document" URL="../../Config/Database Config.ini"/>
 		<Item Name="Hardware Config.ini" Type="Document" URL="../../Config/Hardware Config.ini"/>
+		<Item Name="Test Steps.ctl" Type="VI" URL="../../Sequence/CodeModules/CANbus/Private Controls/Test Steps.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
