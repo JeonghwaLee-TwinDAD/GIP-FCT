@@ -25,5 +25,6 @@
 		<Item Name="Convert Genealogy to Binary.vi" Type="VI" URL="../Public VIs/Convert Genealogy to Binary.vi"/>
 	</Item>
 	<Item Name="CAN Main.vi" Type="VI" URL="../CAN Main.vi"/>
+	<Item Name="CAN Main2.vi" Type="VI" URL="../CAN Main2.vi"/>
 	<Item Name="CAN Test.vi" Type="VI" URL="../CAN Test.vi"/>
 </Library>
