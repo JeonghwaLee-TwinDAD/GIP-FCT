@@ -50,7 +50,7 @@
 			</Item>
 			<Item Name="SubVIs" Type="Folder">
 				<Item Name="FindRowIndex.vi" Type="VI" URL="../../Sequence/CodeModules/DUT PrePost/SubVIs/FindRowIndex.vi"/>
-				<Item Name="GetVariablesValues.vi" Type="VI" URL="../../Sequence/CodeModules/DUT PrePost/SubVIs/GetVariablesValues.vi"/>
+				<Item Name="GetVariablesValues .vi" Type="VI" URL="../../Sequence/CodeModules/DUT PrePost/SubVIs/GetVariablesValues .vi"/>
 				<Item Name="LoadINIFile.vi" Type="VI" URL="../../Sequence/CodeModules/DUT PrePost/SubVIs/LoadINIFile.vi"/>
 				<Item Name="ScreenCoordinates.vi" Type="VI" URL="../../Sequence/CodeModules/DUT PrePost/SubVIs/ScreenCoordinates.vi"/>
 				<Item Name="Set Calling VI Wnd Topmost &amp; Active.vi" Type="VI" URL="../../Sequence/CodeModules/DUT PrePost/SubVIs/Set Calling VI Wnd Topmost &amp; Active.vi"/>

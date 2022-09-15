@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestProject xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Label>GIP FCT</Label>
+  <Guid>86fd3e1a-b53c-4df0-9ea4-14b82077ee6b</Guid>
+  <Id>86fd3e1a-b53c-4df0-9ea4-14b82077ee6b</Id>
+  <Description>Grid Interface Panel Functional Circuit Tester</Description>
+  <Responsible>Jung Lee, Ash Mistry</Responsible>
+  <SupportContact />
+  <OperatorGridView>true</OperatorGridView>
+  <Hidden>false</Hidden>
+  <ProductPicturePath>../Config/Images/DUT-removebg-preview.png</ProductPicturePath>
+  <Created>2022-06-06T11:46:30.172294-07:00</Created>
+  <Modified>2022-06-06T11:46:30.172294-07:00</Modified>
+  <TsSequenceFile>C:\GitHub\GIP-FCT\Sequence\GIP.seq</TsSequenceFile>
+  <TsEntryPointStart />
+  <TsEntryPointCustomSettings />
+  <Autostart>true</Autostart>
+  <ProjectHelpURL />
+  <TemporaryGlobals>
+    <PropertyDefinition>
+      <Name>new</Name>
+      <Value />
+      <Type>String</Type>
+      <Description />
+    </PropertyDefinition>
+    <PropertyDefinition>
+      <Name>new</Name>
+      <Value />
+      <Type>String</Type>
+      <Description />
+    </PropertyDefinition>
+    <PropertyDefinition>
+      <Name>new</Name>
+      <Value />
+      <Type>String</Type>
+      <Description />
+    </PropertyDefinition>
+  </TemporaryGlobals>
+  <StationConfig />
+  <DisplayProductIds />
+</TestProject>

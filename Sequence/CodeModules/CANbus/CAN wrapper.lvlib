@@ -16,6 +16,7 @@
 	<Item Name="Private VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Get KeyValues.vi" Type="VI" URL="../Private VIs/Get KeyValues.vi"/>
+		<Item Name="GetVariables.vi" Type="VI" URL="../Private VIs/GetVariables.vi"/>
 		<Item Name="JSON Generator.vi" Type="VI" URL="../Private VIs/JSON Generator.vi"/>
 	</Item>
 	<Item Name="Public VIs" Type="Folder">
@@ -25,6 +26,5 @@
 		<Item Name="Convert Genealogy to Binary.vi" Type="VI" URL="../Public VIs/Convert Genealogy to Binary.vi"/>
 	</Item>
 	<Item Name="CAN Main.vi" Type="VI" URL="../CAN Main.vi"/>
-	<Item Name="CAN Main2.vi" Type="VI" URL="../CAN Main2.vi"/>
 	<Item Name="CAN Test.vi" Type="VI" URL="../CAN Test.vi"/>
 </Library>

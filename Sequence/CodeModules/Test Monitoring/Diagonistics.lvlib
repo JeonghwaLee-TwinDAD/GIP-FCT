@@ -11,7 +11,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="Local Variables.ctl" Type="VI" URL="../Private Controls/Local Variables.ctl"/>
 		<Item Name="States.ctl" Type="VI" URL="../Private Controls/States.ctl"/>
-		<Item Name="Test Steps.ctl" Type="VI" URL="../../CANbus/Private Controls/Test Steps.ctl"/>
+		<Item Name="Test Steps.ctl" Type="VI" URL="../Private Controls/Test Steps.ctl"/>
 	</Item>
 	<Item Name="Private VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
