@@ -11,10 +11,10 @@
   <ProductPicturePath>../Config/Images/DUT-removebg-preview.png</ProductPicturePath>
   <Created>2022-06-06T11:46:30.172294-07:00</Created>
   <Modified>2022-06-06T11:46:30.172294-07:00</Modified>
-  <TsSequenceFile>C:\GitHub\GIP-FCT\Sequence\GIP.seq</TsSequenceFile>
+  <TsSequenceFile>GIP.seq</TsSequenceFile>
   <TsEntryPointStart />
   <TsEntryPointCustomSettings />
-  <Autostart>true</Autostart>
+  <Autostart>false</Autostart>
   <ProjectHelpURL />
   <TemporaryGlobals>
     <PropertyDefinition>

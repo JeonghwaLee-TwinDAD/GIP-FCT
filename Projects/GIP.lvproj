@@ -12,7 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Configuration" Type="Folder">
+		<Item Name="Load INI" Type="Folder">
 			<Item Name="Controls" Type="Folder">
 				<Item Name="DAQ_Data.ctl" Type="VI" URL="../../Sequence/CodeModules/Load INI/Controls/DAQ_Data.ctl"/>
 				<Item Name="DMM_Data.ctl" Type="VI" URL="../../Sequence/CodeModules/Load INI/Controls/DMM_Data.ctl"/>
@@ -68,8 +68,7 @@
 			<Item Name="UUTInfomation.vi" Type="VI" URL="../../Sequence/CodeModules/DUT PrePost/UUTInfomation.vi"/>
 		</Item>
 		<Item Name="Wrappers.lvlib" Type="Library" URL="../../Sequence/CodeModules/Wrappers/Wrappers.lvlib"/>
-		<Item Name="CAN wrapper.lvlib" Type="Library" URL="../../Sequence/CodeModules/CANbus/CAN wrapper.lvlib"/>
-		<Item Name="Diagonistics.lvlib" Type="Library" URL="../../Sequence/CodeModules/Test Monitoring/Diagonistics.lvlib"/>
+		<Item Name="CAN.lvlib" Type="Library" URL="../../Sequence/CodeModules/CANbus/CAN.lvlib"/>
 		<Item Name="Database Config.ini" Type="Document" URL="../../Config/Database Config.ini"/>
 		<Item Name="Hardware Config.ini" Type="Document" URL="../../Config/Hardware Config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -321,7 +320,6 @@
 				<Item Name="DAQmx Create Channel (AI-Charge).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Charge).vi"/>
 				<Item Name="DAQmx Start Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Start Task.vi"/>
 				<Item Name="DAQmx Clear Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Clear Task.vi"/>
-				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
