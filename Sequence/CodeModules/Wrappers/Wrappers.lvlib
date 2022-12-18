@@ -1,26 +1,23 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Library LVVersion="21008000">
-	<Property Name="NI.Lib.Icon" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*+!!!*Q(C=\&gt;7R&lt;3*"&amp;-&lt;R\YS$3_HA2!'7L&amp;="%AH/;?%6Y!1Z)[3&amp;&amp;R"==)'2\!:IY&lt;6!#\3Q^Z`R-_!,4(*XMCT0-AN]/`0GZ^VF,@8W8&lt;L7=+G.XGXN?"MU^0WID;[0I^&gt;&gt;L^$@BO078]@DZ`003QWP]WP3K=\,I/(._H]?0SXSLP^#UV@\;J_\L3\_#0\Z\_#&lt;WI/)HP3A/^X5FBW30-G40-G40-G$0-C$0-C$0-C&gt;X-G&gt;X-G&gt;X-G.X-C.X-C.X-D\2CZSE9M=5L*YMF"3.#G1$);C:*&gt;Y%E`C34R]6?**0)EH]31?BCDR**\%EXA3$^/5?"*0YEE]C9&gt;38:*^)]?4?#CPQ".Y!E`A#4QMK=!4!),&amp;AM*"%2A+$A9@!E`A#4R]6/!*0)%H]!1?$CPQ"*\!%XA#$V0[79GO;2MZ(ML)]4A?R_.Y(!_FZ8A=D_.R0)[(Z?2Y()_$=":UCE/1-]E:Y(RR0)[(.TE?R_.Y()`DY6#`1N\04./UD2S0Y4%]BM@Q'"Z+S0!9(M.D?!Q0:76Y$)`B-4S'B[6E?!S0Y4%ARK)M,[/9-&gt;%9:!3'BV?`7[R@J?A3[ZN5.[`KJF4&gt;&lt;+K&lt;3(6TK#[[[G+K,J,KZ+N/KOJEK5[#[I^4I659V3+KS7WA$OTX^"V^3V`4F`1&amp;@5;@U-&gt;N[F]??$A=N.`PN&gt;PNN.VON6[PN6QON6AM.*P..*F-."[0DY_"(WT("],,=WH&amp;Z]X^T?X0O]@&lt;J`PH_;`J`'%TH=^&lt;`B`_0X_!:[/O&gt;,Y'Z_AXDBV.#1!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">553680896</Property>
+<Library LVVersion="19008000">
+	<Property Name="NI.Lib.Icon" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*+!!!*Q(C=\&gt;7R&lt;3*"&amp;-&lt;R\YS$3_HA2!'7L&amp;="%AH/;?%6Y!1Z)[3&amp;&amp;R"==)'2\!:IY&lt;6!#\3Q^Z`R-_!,4(*XMCT0-AN]/`0GZ^VF,@8W8&lt;L7=+G.XGXN?"MU^0WID;[0I^&gt;&gt;L^$@BO078]@DZ`003QWP]WP3K=\,I/(._H]?0SXSLP^#UV@\;J_\L3\_#0\Z\_#&lt;WI/)HP3A/^X5FBW30-G40-G40-G$0-C$0-C$0-C&gt;X-G&gt;X-G&gt;X-G.X-C.X-C.X-D\2CZSE9M=5L*YMF"3.#G1$);C:*&gt;Y%E`C34R]6?**0)EH]31?BCDR**\%EXA3$^/5?"*0YEE]C9&gt;38:*^)]?4?#CPQ".Y!E`A#4QMK=!4!),&amp;AM*"%2A+$A9@!E`A#4R]6/!*0)%H]!1?$CPQ"*\!%XA#$V0[79GO;2MZ(ML)]4A?R_.Y(!_FZ8A=D_.R0)[(Z?2Y()_$=":UCE/1-]E:Y(RR0)[(.TE?R_.Y()`DY6#`1N\04./UD2S0Y4%]BM@Q'"Z+S0!9(M.D?!Q0:76Y$)`B-4S'B[6E?!S0Y4%ARK)M,[/9-&gt;%9:!3'BV?`7[R@J?A3[ZN5.[`KJF4&gt;&lt;+K&lt;3(6TK#[[[G+K,J,KZ+N/KOJEK5[#[I^4I659V3+KS7WA$OTX^"V^3V`4F`1&amp;@5;@U-&gt;N[F]??$A=N.`PN&gt;PNN.VON6[PN6QON6AM.*P..*F-."[0DY_"(WT("],,=WH&amp;Z]X^T?X0O]@&lt;J`PH_;`J`'%TH=^&lt;`B`_0X_!:[/O&gt;,Y'Z_AXDBV.#1!!!!!</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI_IconEditor" Type="Str">50 49 48 49 56 48 48 50 13 0 0 0 0 1 23 21 76 111 97 100 32 38 32 85 110 108 111 97 100 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 9 0 0 4 47 1 100 1 100 80 84 72 48 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 15 13 76 97 121 101 114 46 108 118 99 108 97 115 115 0 0 1 0 0 0 0 0 7 0 0 3 189 0 0 0 0 0 0 0 0 0 0 3 162 0 40 0 0 3 156 0 0 3 96 0 0 0 0 0 9 0 32 0 24 0 0 0 0 0 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 0 0 0 0 0 0 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 0 0 0 0 0 0 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 0 0 0 0 0 0 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 0 0 0 0 0 0 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 0 0 0 0 0 0 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 0 0 0 0 0 0 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 250 255 89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 255 0 0 0 7 86 73 32 73 99 111 110 100 1 0 0 0 0 0 6 71 73 80 87 114 97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11 83 109 97 108 108 32 70 111 110 116 115 0 1 8 1 1
 
 </Property>
-	<Item Name="Controls" Type="Folder">
-		<Item Name="DMM States.ctl" Type="VI" URL="../Controls/DMM States.ctl"/>
-		<Item Name="PS States.ctl" Type="VI" URL="../Controls/PS States.ctl"/>
-		<Item Name="Serial States.ctl" Type="VI" URL="../Controls/Serial States.ctl"/>
-	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="6700C Wrapper.vi" Type="VI" URL="../SubVIs/6700C Wrapper.vi"/>
-		<Item Name="APS-7050 Wrapper.vi" Type="VI" URL="../SubVIs/APS-7050 Wrapper.vi"/>
-		<Item Name="DAQ DI.vi" Type="VI" URL="../SubVIs/DAQ DI.vi"/>
-		<Item Name="DAQ DO.vi" Type="VI" URL="../SubVIs/DAQ DO.vi"/>
-		<Item Name="DMM Wrapper.vi" Type="VI" URL="../SubVIs/DMM Wrapper.vi"/>
-		<Item Name="Serial.vi" Type="VI" URL="../SubVIs/Serial.vi"/>
+		<Item Name="Convert Bits to Genealogy.vi" Type="VI" URL="../SubVIs/Convert Bits to Genealogy.vi"/>
+		<Item Name="Convert Genealogy to Bits.vi" Type="VI" URL="../SubVIs/Convert Genealogy to Bits.vi"/>
+		<Item Name="Get TS Variables.vi" Type="VI" URL="../SubVIs/Get TS Variables.vi"/>
 	</Item>
-	<Item Name="APS7050 Main.vi" Type="VI" URL="../APS7050 Main.vi"/>
-	<Item Name="Keysight6700 Main.vi" Type="VI" URL="../Keysight6700 Main.vi"/>
-	<Item Name="Serial Main.vi" Type="VI" URL="../Serial Main.vi"/>
+	<Item Name="Test" Type="Folder">
+		<Item Name="APS7050 Test.vi" Type="VI" URL="../Test/APS7050 Test.vi"/>
+		<Item Name="CAN Test.vi" Type="VI" URL="../Test/CAN Test.vi"/>
+		<Item Name="Keysight6700 Test.vi" Type="VI" URL="../Test/Keysight6700 Test.vi"/>
+		<Item Name="Serial Test.vi" Type="VI" URL="../Test/Serial Test.vi"/>
+	</Item>
+	<Item Name="CAN Main.vi" Type="VI" URL="../CAN Main.vi"/>
+	<Item Name="DMM.vi" Type="VI" URL="../DMM.vi"/>
+	<Item Name="SwitchedDMM.vi" Type="VI" URL="../SwitchedDMM.vi"/>
 </Library>
